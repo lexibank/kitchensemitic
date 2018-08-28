@@ -44,6 +44,7 @@ CONVERSION = {
 
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
+    id = 'kitchensemitic'
 
     def cmd_download(self, **kw):
         self.raw.xls2csv('Semitic.Wordlists.xls')
@@ -75,9 +76,7 @@ class Dataset(BaseDataset):
             semi_diacritics='')[0].split()
 
     def cmd_install(self, **kw):
-        concepticon = {
-            c.english: c.concepticon_id for c in self.conceptlist.concepts.values()}
-        language_map = {l['NAME']: l['GLOTTOCODE'] or None for l in self.languages}
+        language_map = {l['Name']: l['Glottocode'] or None for l in self.languages}
 
         header, rows = self.read_csv('Semitic.Wordlists.ActualWordlists.csv')
         cheader, crows = self.read_csv('Semitic.Codings.Multistate.Sheet1.csv')
@@ -93,6 +92,7 @@ class Dataset(BaseDataset):
         }
 
         with self.cldf as ds:
+            ds.add_concepts(id_factory=lambda c: slug(c.label))
             D = {0: ['doculect', 'concept', 'ipa', 'tokens']}
             idx2word_id = {}
             idx = 1
@@ -105,14 +105,10 @@ class Dataset(BaseDataset):
                         ID=language_map[lang],
                         Name=clean_langs.get(lang, lang),
                         Glottocode=language_map[lang])
-                    ds.add_concept(
-                        ID=concepticon[concept],
-                        Name=concept,
-                        Concepticon_ID=concepticon[concept])
 
                     for r in ds.add_lexemes(
                             Language_ID=language_map[lang],
-                            Parameter_ID=concepticon[concept],
+                            Parameter_ID=slug(concept),
                             Value=col):
                         idx2word_id[idx] = r['ID']
                         D[idx] = [
