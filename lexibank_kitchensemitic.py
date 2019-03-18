@@ -44,8 +44,8 @@ CONVERSION = {
 
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
-    id = 'kitchensemitic'
-
+    id = "kitchensemitic"
+  
     def cmd_download(self, **kw):
         self.raw.xls2csv('Semitic.Wordlists.xls')
         self.raw.xls2csv('Semitic.Codings.Multistate.xlsx')

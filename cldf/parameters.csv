@@ -1,96 +1,96 @@
 ID,Name,Concepticon_ID,Concepticon_Gloss
-all,All,98,ALL
-ashes,Ashes,646,ASH
-barktree,Bark (tree),1204,BARK
-belly,Belly,1251,BELLY
-big,Big,1202,BIG
-bird,Bird,937,BIRD
-bitev,Bite (v.),1403,BITE
-black,Black,163,BLACK
-blood,Blood,946,BLOOD
-bone,Bone,1394,BONE
-breast,Breast,1402,BREAST
-burntrv,Burn (tr. v.),141,BURN (SOMETHING)
-cloud,Cloud,1489,CLOUD
-coldair,Cold (air),1287,COLD
-come,Come,1446,COME
-die,Die,1494,DIE
-dog,Dog,2009,DOG
-drinkv,Drink (v.),1401,DRINK
-dryadj,Dry (adj.),1398,DRY
-ear,Ear,1247,EAR
-eat,Eat,1336,EAT
-egg,Egg,744,EGG
-eye,Eye,1248,EYE
-fatn,Fat (n.),323,FAT (ORGANIC SUBSTANCE)
-fire,Fire,221,FIRE
-fishn,Fish (n.),227,FISH
-flyn,Fly (n.),1504,FLY (INSECT)
-foot,Foot,1301,FOOT
-give,Give,1447,GIVE
-go,Go,695,GO
-good,Good,1035,GOOD
-grass,Grass,606,GRASS
-hairhead,Hair (head),2648,HAIR (HEAD)
-hand,Hand,1277,HAND
-head,Head,1256,HEAD
-hear,Hear,1408,HEAR
-heart,Heart,1223,HEART
-horn,Horn,1393,HORN (ANATOMY)
-i,I,1209,I
-kill,Kill,1417,KILL
-know,Know,1410,KNOW (SOMETHING)
-knee,Knee,1371,KNEE
-leaf,Leaf,628,LEAF
-liver,Liver,1224,LIVER
-long,Long,1203,LONG
-louse,Louse,1392,LOUSE
-man,Man,1554,MAN
-many,Many,1198,MANY
-meat,Meat,634,MEAT
-moon,Moon,1313,MOON
-mountain,Mountain,639,MOUNTAIN
-mouth,Mouth,674,MOUTH
-name,Name,1405,NAME
-neck,Neck,1333,NECK
-new,New,1231,NEW
-night,Night,1233,NIGHT
-nose,Nose,1221,NOSE
-one,One,1493,ONE
-rainn,Rain (n.),658,RAIN (PRECIPITATION)
-red,Red,156,RED
-road,Road,667,ROAD
-root,Root,670,ROOT
-sand,Sand,671,SAND
-say,Say,1458,SAY
-see,See,1409,SEE
-seed,Seed,714,SEED
-sit,Sit,1416,SIT
-skinhuman,Skin (human),2613,SKIN (HUMAN)
-sleepv,Sleep (v.),1585,SLEEP
-small,Small,1246,SMALL
-smoken,Smoke (n.),778,SMOKE (EXHAUST)
-snake,Snake,730,SNAKE
-stand,Stand,1442,STAND
-star,Star,1430,STAR
-stone,Stone,857,STONE
-sun,Sun,1343,SUN
-swim,Swim,1439,SWIM
-tail,Tail,1220,TAIL
-thin,Thin,2308,THIN
-this,This,1214,THIS
-three,Three,492,THREE
-thou,Thou,1215,THOU
-tongue,Tongue,1205,TONGUE
-tooth,Tooth,1380,TOOTH
-tree,Tree,906,TREE
-two,Two,1498,TWO
-warm,Warm,1232,WARM
-water,Water,948,WATER
-we,We,1212,WE
-wet,Wet,1726,WET
-what,What?,1236,WHAT
-white,White,1335,WHITE
-who,Who?,1235,WHO
-woman,Woman,962,WOMAN
-ye,Ye,1213,YOU
+98,All,98,ALL
+646,Ashes,646,ASH
+1204,Bark (tree),1204,BARK
+1251,Belly,1251,BELLY
+1202,Big,1202,BIG
+937,Bird,937,BIRD
+1403,Bite (v.),1403,BITE
+163,Black,163,BLACK
+946,Blood,946,BLOOD
+1394,Bone,1394,BONE
+1402,Breast,1402,BREAST
+141,Burn (tr. v.),141,BURN (SOMETHING)
+1489,Cloud,1489,CLOUD
+1287,Cold (air),1287,COLD
+1446,Come,1446,COME
+1494,Die,1494,DIE
+2009,Dog,2009,DOG
+1401,Drink (v.),1401,DRINK
+1398,Dry (adj.),1398,DRY
+1247,Ear,1247,EAR
+1336,Eat,1336,EAT
+744,Egg,744,EGG
+1248,Eye,1248,EYE
+323,Fat (n.),323,FAT (ORGANIC SUBSTANCE)
+221,Fire,221,FIRE
+227,Fish (n.),227,FISH
+1504,Fly (n.),1504,FLY (INSECT)
+1301,Foot,1301,FOOT
+1447,Give,1447,GIVE
+695,Go,695,GO
+1035,Good,1035,GOOD
+606,Grass,606,GRASS
+2648,Hair (head),2648,HAIR (HEAD)
+1277,Hand,1277,HAND
+1256,Head,1256,HEAD
+1408,Hear,1408,HEAR
+1223,Heart,1223,HEART
+1393,Horn,1393,HORN (ANATOMY)
+1209,I,1209,I
+1417,Kill,1417,KILL
+1410,Know,1410,KNOW (SOMETHING)
+1371,Knee,1371,KNEE
+628,Leaf,628,LEAF
+1224,Liver,1224,LIVER
+1203,Long,1203,LONG
+1392,Louse,1392,LOUSE
+1554,Man,1554,MAN
+1198,Many,1198,MANY
+634,Meat,634,MEAT
+1313,Moon,1313,MOON
+639,Mountain,639,MOUNTAIN
+674,Mouth,674,MOUTH
+1405,Name,1405,NAME
+1333,Neck,1333,NECK
+1231,New,1231,NEW
+1233,Night,1233,NIGHT
+1221,Nose,1221,NOSE
+1493,One,1493,ONE
+658,Rain (n.),658,RAIN (PRECIPITATION)
+156,Red,156,RED
+667,Road,667,ROAD
+670,Root,670,ROOT
+671,Sand,671,SAND
+1458,Say,1458,SAY
+1409,See,1409,SEE
+714,Seed,714,SEED
+1416,Sit,1416,SIT
+2613,Skin (human),2613,SKIN (HUMAN)
+1585,Sleep (v.),1585,SLEEP
+1246,Small,1246,SMALL
+778,Smoke (n.),778,SMOKE (EXHAUST)
+730,Snake,730,SNAKE
+1442,Stand,1442,STAND
+1430,Star,1430,STAR
+857,Stone,857,STONE
+1343,Sun,1343,SUN
+1439,Swim,1439,SWIM
+1220,Tail,1220,TAIL
+2308,Thin,2308,THIN
+1214,This,1214,THIS
+492,Three,492,THREE
+1215,Thou,1215,THOU
+1205,Tongue,1205,TONGUE
+1380,Tooth,1380,TOOTH
+906,Tree,906,TREE
+1498,Two,1498,TWO
+1232,Warm,1232,WARM
+948,Water,948,WATER
+1212,We,1212,WE
+1726,Wet,1726,WET
+1236,What?,1236,WHAT
+1335,White,1335,WHITE
+1235,Who?,1235,WHO
+962,Woman,962,WOMAN
+1213,Ye,1213,YOU
