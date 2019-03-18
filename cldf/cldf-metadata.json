@@ -6,7 +6,9 @@
     "dc:related": "http://rspb.royalsocietypublishing.org/content/early/2009/04/27/rspb.2009.0408",
     "dc:source": "sources.bib",
     "dc:title": "Lexicostatistic Wordlist of Semitic Languages",
+    "dcat:accessURL": "https://github.com/lexibank/kitchensemitic",
     "rdf:ID": "kitchensemitic",
+    "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
         "commentPrefix": null
     },
@@ -22,6 +24,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
+            "dc:extent": 2288,
             "tableSchema": {
                 "columns": [
                     {
@@ -116,6 +119,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
+            "dc:extent": 25,
             "tableSchema": {
                 "columns": [
                     {
@@ -161,6 +165,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
+            "dc:extent": 95,
             "tableSchema": {
                 "columns": [
                     {
@@ -192,10 +197,11 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CognateTable",
+            "dc:extent": 2242,
             "tableSchema": {
                 "columns": [
                     {
-                        "datatype": "integer",
+                        "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
                         "name": "ID"
                     },
