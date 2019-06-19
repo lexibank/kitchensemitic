@@ -1,26 +1,26 @@
-ID,Name,Glottocode,Glottolog_Name
-1,"Gɛ'ɛz",geez1241,
-2,"Tigrɛ",tigr1270,
-3,"Tigrinya",tigr1271,
-4,"Amharic",amha1245,
-5,"Argobba",argo1244,
-6,"Harari",hara1271,
-7,"Zway",zayy1238,
-8,"ʷalani",wola1253,
-9,"Gafat",gafa1240,
-10,"Soddo",sodd1242,
-11,"Mesqan",mesq1240,
-12,"Innemor",inor1238,
-13,"Mesmes",mesm1243,
-14,"Geto",gyet1240,
-15,"Chaha",chah1248,
-16,"Hebrew",hebr1245,
-17,"Ugaritic",ugar1238,
-18,"Aramaic",aram1259,
-19,"Akkadian",akka1240,
-20,"Mɛhri",mehr1241,
-21,"Gibbali",sheh1240,
-22,"Soqotri",soqo1240,
-23,"Harsusi",hars1241,
-24,"Moroccan Arabic",moro1292,
-25,"Ogadɛn Arabic",ogad1238,
+ID,Name,Glottocode,Source
+1,Gɛ'ɛz,geez1241,Bender1971
+2,Tigrɛ,tigr1270,Bender1971
+3,Tigrinya,tigr1271,Bender1971
+4,Amharic,amha1245,Bender1971
+5,Argobba,argo1244,Bender1971
+6,Harari,hara1271,Bender1971
+7,Zway,zayy1238,Bender1971
+8,ʷalani,wola1253,Bender1971
+9,Gafat,gafa1240,Bender1971
+10,Soddo,sodd1242,Bender1971
+11,Mesqan,mesq1240,Bender1971
+12,Innemor,inor1238,Bender1971
+13,Mesmes,mesm1243,Bender1971
+14,Geto,gyet1240,Bender1971
+15,Chaha,chah1248,Bender1971
+16,Hebrew,hebr1245,Rabin1975
+17,Ugaritic,ugar1238,Rabin1975
+18,Aramaic,olda1245,Rabin1975
+19,Akkadian,akka1240,Rabin1975
+20,Mɛhri,mehr1241,
+21,Gibbali,sheh1240,
+22,Soqotri,soqo1240,Leslau1938
+23,Harsusi,hars1241,
+24,Moroccan Arabic,moro1292,Sobelman1963
+25,Ogadɛn Arabic,ogad1238,Bender1971
