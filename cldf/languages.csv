@@ -1,26 +1,26 @@
-ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Family
-geez1241,Ge'ez,geez1241,,,,
-tigr1270,Tigre,tigr1270,,,,
-tigr1271,Tigrinya,tigr1271,,,,
-amha1245,Amharic,amha1245,,,,
-argo1244,Argobba,argo1244,,,,
-hara1271,Harari,hara1271,,,,
-zayy1238,Zway,zayy1238,,,,
-wola1253,Walani,wola1253,,,,
-gafa1240,Gafat,gafa1240,,,,
-sodd1242,Soddo,sodd1242,,,,
-mesq1240,Mesqan,mesq1240,,,,
-inor1238,Innemor,inor1238,,,,
-mesm1243,Mesmes,mesm1243,,,,
-gyet1240,Geto,gyet1240,,,,
-chah1248,Chaha,chah1248,,,,
-hebr1245,Hebrew,hebr1245,,,,
-ugar1238,Ugaritic,ugar1238,,,,
-aram1259,Aramaic,aram1259,,,,
-akka1240,Akkadian,akka1240,,,,
-mehr1241,Mehri,mehr1241,,,,
-sheh1240,Jibbali,sheh1240,,,,
-soqo1240,Soqotri,soqo1240,,,,
-hars1241,Harsusi,hars1241,,,,
-moro1292,Moroccan Arabic,moro1292,,,,
-ogad1238,Ogaden Arabic,ogad1238,,,,
+ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Family,Sources
+Akkadian,Akkadian,akka1240,,,,,,,Rabin1975;Kitchen2009
+Amharic,Amharic,amha1245,,,,,,,Bender1971;Kitchen2009
+Aramaic,Aramaic,olda1245,,,,,,,Rabin1975;Kitchen2009
+Argobba,Argobba,argo1244,,,,,,,Bender1971;Kitchen2009
+Chaha,Chaha,chah1248,,,,,,,Bender1971;Kitchen2009
+Gafat,Gafat,gafa1240,,,,,,,Bender1971;Kitchen2009
+Geez,Gɛ'ɛz,geez1241,,,,,,,Bender1971;Kitchen2009
+Geto,Geto,gyet1240,,,,,,,Bender1971;Kitchen2009
+Gibbali,Gibbali,sheh1240,,,,,,,Kitchen2009
+Harari,Harari,hara1271,,,,,,,Bender1971;Kitchen2009
+Harsusi,Harsusi,hars1241,,,,,,,Kitchen2009
+Hebrew,Hebrew,hebr1245,,,,,,,Rabin1975;Kitchen2009
+Innemor,Innemor,inor1238,,,,,,,Bender1971;Kitchen2009
+Mehri,Mɛhri,mehr1241,,,,,,,Kitchen2009
+Mesmes,Mesmes,mesm1243,,,,,,,Bender1971;Kitchen2009
+Mesqan,Mesqan,mesq1240,,,,,,,Bender1971;Kitchen2009
+MoroccanArabic,Moroccan Arabic,moro1292,,,,,,,Sobelman1963;Kitchen2009
+OgadenArabic,Ogadɛn Arabic,ogad1238,,,,,,,Bender1971;Kitchen2009
+Soddo,Soddo,sodd1242,,,,,,,Bender1971;Kitchen2009
+Soqotri,Soqotri,soqo1240,,,,,,,Leslau1938;Kitchen2009
+Tigre,Tigrɛ,tigr1270,,,,,,,Bender1971;Kitchen2009
+Tigrinya,Tigrinya,tigr1271,,,,,,,Bender1971;Kitchen2009
+Ugaritic,Ugaritic,ugar1238,,,,,,,Rabin1975;Kitchen2009
+Walani,ʷalani,wola1253,,,,,,,Bender1971;Kitchen2009
+Zway,Zway,zayy1238,,,,,,,Bender1971;Kitchen2009

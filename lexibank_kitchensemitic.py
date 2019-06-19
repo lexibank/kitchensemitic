@@ -1,17 +1,20 @@
 # coding: utf8
 from __future__ import unicode_literals, print_function, division
 
+import attr
+
 from clldutils.path import Path
 from clldutils.misc import lazyproperty, slug
 
 from pylexibank.dataset import Metadata
-from pylexibank.dataset import Dataset as BaseDataset
-from pylexibank.util import getEvoBibAsBibtex
+from pylexibank.dataset import Dataset as BaseDataset, Language as BaseLanguage
 
 import lingpy as lp
 
-PREPARSE = [("'", "ʼ"), ("j", "d͡ʒ"), ("y", "j"), ("-", "+"), ("'", "ˈ"), ('?', "ʔ"),
-            ('//', '/'), ('', ''), ('7', 's'), ('', '')]
+PREPARSE = [
+    ("'", "ʼ"), ("j", "d͡ʒ"), ("y", "j"), ("-", "+"), ("'", "ˈ"),
+    ('?', "ʔ"), ('//', '/'), ('', ''), ('7', 's'), ('', '')
+]
 CONVERSION = {
     "nn": "nː",
     "9": "ʕ",
@@ -41,30 +44,45 @@ CONVERSION = {
     "zz": "zː",
 }
 
+# because the naming scheme between the cognates file and the
+# data file are inconsistent, we need this mapping
+# (i.e. the cognates file is ASCII, while the data file has UTF8 tokens)
+relabel_languages = {
+    "Ge'ez": "Gɛ'ɛz",
+    "Tigre": "Tigrɛ",
+    "Walani": 'ʷalani',
+    "Ogaden Arabic": "Ogadɛn Arabic",
+    "Mehri": "Mɛhri",
+    "Jibbali": "Gibbali",
+}
+# the cognate table columns are uppercase, but there are a few mismatches:
+relabel_words = {
+    'Cold (air)': 'COLD (OF AIR)',
+    'Fat (n.)': 'FAT',
+    'Fish (n.)': 'FISH', 
+    'Hair (head)': 'HAIR',
+    'Skin (human)': 'SKIN (N.)',
+}
+
+@attr.s
+class Language(BaseLanguage):
+   Sources = attr.ib(default=None)
+
+
 
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
     id = "kitchensemitic"
+    language_class = Language
   
     def cmd_download(self, **kw):
         self.raw.xls2csv('Semitic.Wordlists.xls')
         self.raw.xls2csv('Semitic.Codings.Multistate.xlsx')
-        self.raw.write('sources.bib', getEvoBibAsBibtex('Kitchen2009', **kw))
 
     def clean_form(self, row, form):
         form = BaseDataset.clean_form(self, row, form)
         if form != '---':
             return form
-
-    def read_csv(self, fname, **kw):
-        header, rows = None, []
-        for i, row in enumerate(self.raw.read_csv(fname)):
-            row = [c.strip() for c in row]
-            if i == 0:
-                header = row
-            if i > 0:
-                rows.append(row)
-        return header, rows
 
     @lazyproperty
     def tokenizer(self):
@@ -76,73 +94,94 @@ class Dataset(BaseDataset):
             semi_diacritics='')[0].split()
 
     def cmd_install(self, **kw):
-        language_map = {l['Name']: l['Glottocode'] or None for l in self.languages}
-
-        header, rows = self.read_csv('Semitic.Wordlists.ActualWordlists.csv')
-        cheader, crows = self.read_csv('Semitic.Codings.Multistate.Sheet1.csv')
-
-        langs = header[1:]
-        clean_langs = {
-            """Gɛ'ɛz""": "Ge'ez",
-            "Tigrɛ": "Tigre",
-            'ʷalani': "Walani",
-            "Ogadɛn Arabic": "Ogaden Arabic",
-            "Mɛhri": "Mehri",
-            "Gibbali": "Jibbali",
+        langs = {
+            l['Name']: (l['ID'], l['Sources'].split(";")) for l in self.languages
         }
 
+        concepts = {
+            c.english: (c.concepticon_id, c.concepticon_gloss)
+            for c in self.conceptlist.concepts.values()
+        }
+
+        rows = self.raw.read_csv('Semitic.Wordlists.ActualWordlists.csv')
+        header = rows.pop(0)
+        crows = self.raw.read_csv('Semitic.Codings.Multistate.Sheet1.csv')
+        cheader = crows.pop(0)
+        
+        # process cognates first
+        cognates = {}
+        for row in crows:
+            row = dict(zip(cheader, row))
+            # first, unnamed column is the Language & make language name consistent
+            lang = row.pop('')
+            cognates[relabel_languages.get(lang, lang)] = row
+        
         with self.cldf as ds:
-            ds.add_concepts(id_factory=lambda c: slug(c.label))
-            D = {0: ['doculect', 'concept', 'ipa', 'tokens']}
-            idx2word_id = {}
-            idx = 1
+            ds.add_languages()
             ds.add_sources(*self.raw.read_bib())
+            
+            ##D = {0: ['doculect', 'concept', 'ipa', 'tokens']}
+            ##idx2word_id = {}
+            ##idx = 1
             for row in rows:
-                concept = row[0]
-                for i, col in enumerate(row[1:]):
-                    lang = langs[i]
-                    ds.add_language(
-                        ID=language_map[lang],
-                        Name=clean_langs.get(lang, lang),
-                        Glottocode=language_map[lang])
+                row = dict(zip(header, row))
+                gloss = row.pop('Gloss')
+                concept = concepts[gloss]
+                csid = slug(concept[1])
+                
+                ds.add_concept(
+                    ID=csid,
+                    Name=gloss,
+                    Concepticon_ID=concept[0],
+                    Concepticon_Gloss=concept[1]
+                )
+                
+                for lang, forms in row.items():
+                    if forms == '---':  # skip bad forms
+                        continue
 
-                    for r in ds.add_lexemes(
-                            Language_ID=language_map[lang],
-                            Parameter_ID=slug(concept),
-                            Value=col):
-                        idx2word_id[idx] = r['ID']
-                        D[idx] = [
-                            clean_langs.get(lang, lang), concept, col, r['Segments']]
-                        idx += 1
-                        break
+                    lid, src = langs[lang]  # get language details
+                    # get cognate
+                    cogs = cognates[lang][relabel_words.get(gloss, gloss.upper())]
+                    assert cogs is not None, "unable to match cognate %s-%s" % (lang, concept)
+                    
+                    forms = [f.strip() for f in forms.replace(",", "/").split("/") if len(f.strip())]
+                    cogs = [c.strip() for c in cogs.replace(",", "/").split("/") if len(c.strip())]
+                    # if the number of cognates does not match the number for forms,
+                    # it looks like the cognate set used is the first one, so fill the
+                    # cognates to the same size with the token used as a
+                    # non-cognate marker ('-')
+                    if len(forms) > len(cogs):
+                        cogs.extend('-' for _ in range(len(forms) - len(cogs)))
+                    
+                    # there does appear to be one instance of more cognates than forms:
+                    #   Harsusi's "ges'" - RAIN (N.) = D/I
+                    # .. but it looks cognate with Hebrew's and Ugaritic's set D rather than
+                    # set I (e.g. Ogaden Arabic "matar"), so I think it's a typo and
+                    # we'll ignore it.
+                    
+                    # there are also forms that have no lexeme but do have a cognate set...
+                    # have to ignore these for now. Can't think of what to do with them
+                    # otherwise:
+                    #    Mɛhri Dog --- D
+                    #    Mɛhri Dry (adj.) --- F
+                    #    Hebrew Grass --- C/J
+                    #    Hebrew New --- A
+                    #    Mɛhri Seed --- C
+                    #    Hebrew Three --- A
+                    #    Mɛhri Warm --- H
+                    #    Hebrew Ye --- A
 
-            wl = lp.Wordlist(D)
-            id2cog = {}
-            errors = []
-            for row in crows:
-                taxon = row[0]
-                for i, (concept, cog) in enumerate(zip(cheader[1:], row[1:])):
-                    nconcept = rows[i][0]
-                    if cog != '-':
-                        idxs = wl.get_dict(taxon=taxon)
-                        if idxs.get(nconcept, ''):
-                            id2cog[idxs[nconcept][0]] = concept + '-' + cog
-                        else:
-                            errors += [(concept, nconcept, taxon)]
-            bad_cogs = 1
-            for k in wl:
-                if k not in id2cog:
-                    cogid = str(bad_cogs)
-                    bad_cogs += 1
-                    id2cog[k] = cogid
-
-            wl.add_entries('cog', id2cog, lambda x: x)
-            wl.renumber('cog')
-            for k in wl:
-                ds.add_cognate(
-                    Form_ID=idx2word_id[k],
-                    ID=k,
-                    Form=wl[k, 'ipa'],
-                    Cognateset_ID=slug(wl[k, 'concept']) + '-' + str(wl[k, 'cogid']),
-                    Source=['Kitchen2009'])
-            ds.align_cognates(lp.Alignments(wl))
+                    for form, cog in zip(forms, cogs):
+                        assert len(form), "Empty form %s - %r - %r - %r" % (lid, gloss, form, cog)
+                        assert len(cog), "Empty cognate %s - %r - %r - %r" % (lid, gloss, form, cog)
+                        
+                        cogid = '%s-%s' % (csid, cog)
+                        for row in ds.add_lexemes(
+                                Language_ID=lid,
+                                Parameter_ID=csid,
+                                Value=form,
+                                Source=src
+                            ):
+                            if cog != '-':
+                                ds.add_cognate(lexeme=row, Cognateset_ID=cogid, Source=['Kitchen2009'])
