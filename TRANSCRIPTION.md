@@ -212,80 +212,80 @@
 ## Words with invalid segments (up to 100 only)
 
 | ID | LANGUAGE | CONCEPT | FORM | SEGMENTS |
-|:------------------------------|:---------------|:------------------|:-----------|:---------------------------|
-| Akkadian-big-2 | Akkadian | big | ma'du | m <s> aʼ </s> d u |
-| Akkadian-bird-1 | Akkadian | bird | is's'uru | i <s> sʼsʼ </s> u r u |
-| Akkadian-hairhead-1 | Akkadian | hairhead | ʃa'r | ʃ <s> aʼ </s> r |
-| Akkadian-many-1 | Akkadian | many | ma'du | m <s> aʼ </s> d u |
-| Amharic-hand-1 | Amharic | hand | ɨjj | ɨ <s> d͡ʒd͡ʒ </s> |
-| Amharic-long-1 | Amharic | long | rɛjjɨm | r ɛ <s> d͡ʒd͡ʒ </s> ɨ m |
-| Aramaic-ash-1 | Aramaic | ash | k'eƭ'm' | kʼ e <s> ƭʼ </s> mʼ |
-| Aramaic-ash-2 | Aramaic | ash | rmu'a | r m <s> uʼ </s> a |
-| Argobba-white-1 | Argobba | white | zahh | z a <s> hh </s> |
-| Chaha-rainprecipitation-1 | Chaha | rainprecipitation | zɨraB | z ɨ r a <s> B </s> |
-| Gafat-one-1 | Gafat | one | ɨjjɛ | ɨ <s> d͡ʒd͡ʒ </s> ɛ |
-| Gafat-see-1 | Gafat | see | ajjɛ | a <s> d͡ʒd͡ʒ </s> ɛ |
-| Gafat-snake-1 | Gafat | snake | ɨʊaʊʷɛ | ɨ ʊ a <s> ʊʷ </s> ɛ |
-| Harari-burnsomething-1 | Harari | burnsomething | ma:'gɛdɛ | m <s> a:ʼ </s> g ɛ d ɛ |
-| Harari-ear-1 | Harari | ear | 7u'zʊn | s <s> uʼ </s> z ʊ n |
-| Harari-fire-1 | Harari | fire | 7i:'sat | s <s> i:ʼ </s> s a t |
-| Harari-kill-1 | Harari | kill | gɛ'dɛlɛ | g <s> ɛʼ </s> d ɛ l ɛ |
-| Harari-knowsomething-1 | Harari | knowsomething | 7aˡk'ɛ | s <s> aˡ </s> kʼ ɛ |
-| Harari-moon-1 | Harari | moon | c'ɛ'rɛk'ɛ | cʼ <s> ɛʼ </s> r ɛ kʼ ɛ |
-| Harari-small-1 | Harari | small | t'i'k'ɛso | tʼ <s> iʼ </s> kʼ ɛ s o |
-| Harari-stand-1 | Harari | stand | k'a:'nɛnɛ | kʼ <s> a:ʼ </s> n ɛ n ɛ |
-| Harari-swim-1 | Harari | swim | tɛfu'ka:ka | t ɛ f <s> uʼ </s> k a: k a |
-| Harari-tail-1 | Harari | tail | k'ɛ'nɛwɛ | kʼ <s> ɛʼ </s> n ɛ w ɛ |
-| Harari-thin-1 | Harari | thin | k'ɛ'c'i:n | kʼ <s> ɛʼ </s> cʼ i: n |
-| Harsusi-bird-1 | Harsusi | bird | s'eħħer | sʼ e <s> ħħ </s> e r |
-| Harsusi-blood-1 | Harsusi | blood | ɵ'ore | <s> ɵʼ </s> o r e |
-| Harsusi-smokeexhaust-1 | Harsusi | smokeexhaust | nedėx | n e d <s> ė </s> x |
-| Harsusi-water-1 | Harsusi | water | ħẹmyoh | ħ <s> ẹ </s> m j o h |
-| Harsusi-we-2 | Harsusi | we | 'eti | <s> ʼe </s> t i |
-| Hebrew-come-1 | Hebrew | come | ba' | b <s> aʼ </s> |
-| Hebrew-head-1 | Hebrew | head | rŏ'ʃ | r <s> ŏʼ </s> ʃ |
-| Hebrew-see-1 | Hebrew | see | ra'ah | r <s> aʼ </s> a h |
-| Hebrew-seed-1 | Hebrew | seed | zera' | z e r <s> aʼ </s> |
-| Mehri-head-1 | Mehri | head | ħẹroh | ħ <s> ẹ </s> r o h |
-| Mehri-road-1 | Mehri | road | ħọoorem | ħ <s> ọ </s> oː r e m |
-| Mesmes-breast-1 | Mesmes | breast | t'uʷiye | tʼ <s> uʷ </s> i j e |
-| Mesmes-drink-1 | Mesmes | drink | sɛ'cɔ- | s <s> ɛʼ </s> tʃ ɔ + |
-| Mesmes-dry-1 | Mesmes | dry | də'ro-e | d <s> əʼ </s> r o + e |
-| Mesmes-fire-1 | Mesmes | fire | ɨ'sa:de | <s> ɨʼ </s> s a: d e |
-| Mesmes-give-1 | Mesmes | give | ha'mɔ- | h <s> aʼ </s> m ɔ + |
-| Mesmes-go-1 | Mesmes | go | hɔ'rɔ:- | h <s> ɔʼ </s> r ɔ: + |
-| Mesmes-good-1 | Mesmes | good | mo'7o- | m <s> oʼ </s> s o + |
-| Mesmes-grass-1 | Mesmes | grass | sa'7ari | s <s> aʼ </s> s a r i |
-| Mesmes-hairhead-1 | Mesmes | hairhead | du'gʊ:ra | d <s> uʼ </s> g ʊ: r a |
-| Mesmes-hand-1 | Mesmes | hand | ɨjja | ɨ <s> d͡ʒd͡ʒ </s> a |
-| Mesmes-hear-1 | Mesmes | hear | sɔ'7ma- | s <s> ɔʼ </s> s m a + |
-| Mesmes-kill-1 | Mesmes | kill | :tɔrɔ- | <s> :t </s> ɔ r ɔ + |
-| Mesmes-knowsomething-1 | Mesmes | knowsomething | ha'ro:- | h <s> aʼ </s> r o: + |
-| Mesmes-leaf-1 | Mesmes | leaf | ko'7ora | k <s> oʼ </s> s o r a |
-| Mesmes-louse-1 | Mesmes | louse | k'u'wa:na | kʼ <s> uʼ </s> w a: n a |
-| Mesmes-meat-1 | Mesmes | meat | bɔ'sɔra | b <s> ɔʼ </s> s ɔ r a |
-| Mesmes-night-1 | Mesmes | night | haʷɔnsɔ:de | h <s> aʷ </s> ɔ n s ɔ: d e |
-| Mesmes-see-1 | Mesmes | see | -ha:ʸyɔ:- | + h <s> a:ʸ </s> j ɔ: + |
-| Mesmes-stone-1 | Mesmes | stone | oᵘna | <s> oᵘ </s> n a |
-| Mesmes-two-1 | Mesmes | two | wʊ'7ɛ:ti | w <s> ʊʼ </s> s ɛ: t i |
-| Mesmes-water-1 | Mesmes | water | 7ʊ'ha | s <s> ʊʼ </s> h a |
-| Mesmes-you-1 | Mesmes | you | a'hu:we | <s> aʼ </s> h u: w e |
-| Mesqan-eye-1 | Mesqan | eye | eʸn | <s> eʸ </s> n |
-| Mesqan-sun-1 | Mesqan | sun | c'ɛʸt | cʼ <s> ɛʸ </s> t |
-| Mesqan-three-1 | Mesqan | three | sɔʷst | s <s> ɔʷ </s> s t |
-| Mesqan-tooth-1 | Mesqan | tooth | sɔʷst | s <s> ɔʷ </s> s t |
-| MoroccanArabic-smokeexhaust-1 | MoroccanArabic | smokeexhaust | doxxan | d o <s> xx </s> a n |
-| Tigrinya-woman-1 | Tigrinya | woman | sɛbeʸti | s ɛ b <s> eʸ </s> t i |
-| Ugaritic-come-2 | Ugaritic | come | 'tw | <s> ʼt </s> w |
-| Ugaritic-eye-1 | Ugaritic | eye | 'n | <s> ʼn </s> |
-| Ugaritic-hear-1 | Ugaritic | hear | ʃ m ' | ʃ _ m <s> _ʼ </s> |
-| Ugaritic-knowsomething-1 | Ugaritic | knowsomething | y d ' | j _ d <s> _ʼ </s> |
-| Ugaritic-see-2 | Ugaritic | see |  d y | <s>  </s> _ d _ j |
-| Ugaritic-sit-1 | Ugaritic | sit | y t 'b | j _ t <s> _ʼ </s> b |
-| Ugaritic-tail-1 | Ugaritic | tail | ɵ'n b | <s> ɵʼ </s> n _ b |
-| Walani-all-1 | Walani | all | ullImka | u lː <s> I </s> m k a |
-| Zway-small-1 | Zway | small | t'i:ʸt | tʼ <s> i:ʸ </s> t |
-| Zway-white-1 | Zway | white | go:'mara | g <s> o:ʼ </s> m a r a |
+|:------------------------------------|:---------------|:-------------------|:-----------|:---------------------------|
+| Akkadian-Kitchen-2009-95-33-1 | Akkadian | Kitchen-2009-95-33 | ʃa'r | ʃ <s> aʼ </s> r |
+| Akkadian-Kitchen-2009-95-48-1 | Akkadian | Kitchen-2009-95-48 | ma'du | m <s> aʼ </s> d u |
+| Akkadian-Kitchen-2009-95-5-2 | Akkadian | Kitchen-2009-95-5 | ma'du | m <s> aʼ </s> d u |
+| Akkadian-Kitchen-2009-95-6-1 | Akkadian | Kitchen-2009-95-6 | is's'uru | i <s> sʼsʼ </s> u r u |
+| Amharic-Kitchen-2009-95-34-1 | Amharic | Kitchen-2009-95-34 | ɨjj | ɨ <s> d͡ʒd͡ʒ </s> |
+| Amharic-Kitchen-2009-95-45-1 | Amharic | Kitchen-2009-95-45 | rɛjjɨm | r ɛ <s> d͡ʒd͡ʒ </s> ɨ m |
+| Aramaic-Kitchen-2009-95-2-1 | Aramaic | Kitchen-2009-95-2 | k'eƭ'm' | kʼ e <s> ƭʼ </s> mʼ |
+| Aramaic-Kitchen-2009-95-2-2 | Aramaic | Kitchen-2009-95-2 | rmu'a | r m <s> uʼ </s> a |
+| Argobba-Kitchen-2009-95-92-1 | Argobba | Kitchen-2009-95-92 | zahh | z a <s> hh </s> |
+| Chaha-Kitchen-2009-95-59-1 | Chaha | Kitchen-2009-95-59 | zɨraB | z ɨ r a <s> B </s> |
+| Gafat-Kitchen-2009-95-58-1 | Gafat | Kitchen-2009-95-58 | ɨjjɛ | ɨ <s> d͡ʒd͡ʒ </s> ɛ |
+| Gafat-Kitchen-2009-95-65-1 | Gafat | Kitchen-2009-95-65 | ajjɛ | a <s> d͡ʒd͡ʒ </s> ɛ |
+| Gafat-Kitchen-2009-95-72-1 | Gafat | Kitchen-2009-95-72 | ɨʊaʊʷɛ | ɨ ʊ a <s> ʊʷ </s> ɛ |
+| Harari-Kitchen-2009-95-12-1 | Harari | Kitchen-2009-95-12 | ma:'gɛdɛ | m <s> a:ʼ </s> g ɛ d ɛ |
+| Harari-Kitchen-2009-95-20-1 | Harari | Kitchen-2009-95-20 | 7u'zʊn | s <s> uʼ </s> z ʊ n |
+| Harari-Kitchen-2009-95-25-1 | Harari | Kitchen-2009-95-25 | 7i:'sat | s <s> i:ʼ </s> s a t |
+| Harari-Kitchen-2009-95-40-1 | Harari | Kitchen-2009-95-40 | gɛ'dɛlɛ | g <s> ɛʼ </s> d ɛ l ɛ |
+| Harari-Kitchen-2009-95-41-1 | Harari | Kitchen-2009-95-41 | 7aˡk'ɛ | s <s> aˡ </s> kʼ ɛ |
+| Harari-Kitchen-2009-95-50-1 | Harari | Kitchen-2009-95-50 | c'ɛ'rɛk'ɛ | cʼ <s> ɛʼ </s> r ɛ kʼ ɛ |
+| Harari-Kitchen-2009-95-70-1 | Harari | Kitchen-2009-95-70 | t'i'k'ɛso | tʼ <s> iʼ </s> kʼ ɛ s o |
+| Harari-Kitchen-2009-95-73-1 | Harari | Kitchen-2009-95-73 | k'a:'nɛnɛ | kʼ <s> a:ʼ </s> n ɛ n ɛ |
+| Harari-Kitchen-2009-95-77-1 | Harari | Kitchen-2009-95-77 | tɛfu'ka:ka | t ɛ f <s> uʼ </s> k a: k a |
+| Harari-Kitchen-2009-95-78-1 | Harari | Kitchen-2009-95-78 | k'ɛ'nɛwɛ | kʼ <s> ɛʼ </s> n ɛ w ɛ |
+| Harari-Kitchen-2009-95-79-1 | Harari | Kitchen-2009-95-79 | k'ɛ'c'i:n | kʼ <s> ɛʼ </s> cʼ i: n |
+| Harsusi-Kitchen-2009-95-6-1 | Harsusi | Kitchen-2009-95-6 | s'eħħer | sʼ e <s> ħħ </s> e r |
+| Harsusi-Kitchen-2009-95-71-1 | Harsusi | Kitchen-2009-95-71 | nedėx | n e d <s> ė </s> x |
+| Harsusi-Kitchen-2009-95-88-1 | Harsusi | Kitchen-2009-95-88 | ħẹmyoh | ħ <s> ẹ </s> m j o h |
+| Harsusi-Kitchen-2009-95-89-2 | Harsusi | Kitchen-2009-95-89 | 'eti | <s> ʼe </s> t i |
+| Harsusi-Kitchen-2009-95-9-1 | Harsusi | Kitchen-2009-95-9 | ɵ'ore | <s> ɵʼ </s> o r e |
+| Hebrew-Kitchen-2009-95-15-1 | Hebrew | Kitchen-2009-95-15 | ba' | b <s> aʼ </s> |
+| Hebrew-Kitchen-2009-95-35-1 | Hebrew | Kitchen-2009-95-35 | rŏ'ʃ | r <s> ŏʼ </s> ʃ |
+| Hebrew-Kitchen-2009-95-65-1 | Hebrew | Kitchen-2009-95-65 | ra'ah | r <s> aʼ </s> a h |
+| Hebrew-Kitchen-2009-95-66-1 | Hebrew | Kitchen-2009-95-66 | zera' | z e r <s> aʼ </s> |
+| Mehri-Kitchen-2009-95-35-1 | Mehri | Kitchen-2009-95-35 | ħẹroh | ħ <s> ẹ </s> r o h |
+| Mehri-Kitchen-2009-95-61-1 | Mehri | Kitchen-2009-95-61 | ħọoorem | ħ <s> ọ </s> oː r e m |
+| Mesmes-Kitchen-2009-95-11-1 | Mesmes | Kitchen-2009-95-11 | t'uʷiye | tʼ <s> uʷ </s> i j e |
+| Mesmes-Kitchen-2009-95-18-1 | Mesmes | Kitchen-2009-95-18 | sɛ'cɔ- | s <s> ɛʼ </s> tʃ ɔ + |
+| Mesmes-Kitchen-2009-95-19-1 | Mesmes | Kitchen-2009-95-19 | də'ro-e | d <s> əʼ </s> r o + e |
+| Mesmes-Kitchen-2009-95-25-1 | Mesmes | Kitchen-2009-95-25 | ɨ'sa:de | <s> ɨʼ </s> s a: d e |
+| Mesmes-Kitchen-2009-95-29-1 | Mesmes | Kitchen-2009-95-29 | ha'mɔ- | h <s> aʼ </s> m ɔ + |
+| Mesmes-Kitchen-2009-95-30-1 | Mesmes | Kitchen-2009-95-30 | hɔ'rɔ:- | h <s> ɔʼ </s> r ɔ: + |
+| Mesmes-Kitchen-2009-95-31-1 | Mesmes | Kitchen-2009-95-31 | mo'7o- | m <s> oʼ </s> s o + |
+| Mesmes-Kitchen-2009-95-32-1 | Mesmes | Kitchen-2009-95-32 | sa'7ari | s <s> aʼ </s> s a r i |
+| Mesmes-Kitchen-2009-95-33-1 | Mesmes | Kitchen-2009-95-33 | du'gʊ:ra | d <s> uʼ </s> g ʊ: r a |
+| Mesmes-Kitchen-2009-95-34-1 | Mesmes | Kitchen-2009-95-34 | ɨjja | ɨ <s> d͡ʒd͡ʒ </s> a |
+| Mesmes-Kitchen-2009-95-36-1 | Mesmes | Kitchen-2009-95-36 | sɔ'7ma- | s <s> ɔʼ </s> s m a + |
+| Mesmes-Kitchen-2009-95-40-1 | Mesmes | Kitchen-2009-95-40 | :tɔrɔ- | <s> :t </s> ɔ r ɔ + |
+| Mesmes-Kitchen-2009-95-41-1 | Mesmes | Kitchen-2009-95-41 | ha'ro:- | h <s> aʼ </s> r o: + |
+| Mesmes-Kitchen-2009-95-43-1 | Mesmes | Kitchen-2009-95-43 | ko'7ora | k <s> oʼ </s> s o r a |
+| Mesmes-Kitchen-2009-95-46-1 | Mesmes | Kitchen-2009-95-46 | k'u'wa:na | kʼ <s> uʼ </s> w a: n a |
+| Mesmes-Kitchen-2009-95-49-1 | Mesmes | Kitchen-2009-95-49 | bɔ'sɔra | b <s> ɔʼ </s> s ɔ r a |
+| Mesmes-Kitchen-2009-95-56-1 | Mesmes | Kitchen-2009-95-56 | haʷɔnsɔ:de | h <s> aʷ </s> ɔ n s ɔ: d e |
+| Mesmes-Kitchen-2009-95-65-1 | Mesmes | Kitchen-2009-95-65 | -ha:ʸyɔ:- | + h <s> a:ʸ </s> j ɔ: + |
+| Mesmes-Kitchen-2009-95-75-1 | Mesmes | Kitchen-2009-95-75 | oᵘna | <s> oᵘ </s> n a |
+| Mesmes-Kitchen-2009-95-86-1 | Mesmes | Kitchen-2009-95-86 | wʊ'7ɛ:ti | w <s> ʊʼ </s> s ɛ: t i |
+| Mesmes-Kitchen-2009-95-88-1 | Mesmes | Kitchen-2009-95-88 | 7ʊ'ha | s <s> ʊʼ </s> h a |
+| Mesmes-Kitchen-2009-95-95-1 | Mesmes | Kitchen-2009-95-95 | a'hu:we | <s> aʼ </s> h u: w e |
+| Mesqan-Kitchen-2009-95-23-1 | Mesqan | Kitchen-2009-95-23 | eʸn | <s> eʸ </s> n |
+| Mesqan-Kitchen-2009-95-76-1 | Mesqan | Kitchen-2009-95-76 | c'ɛʸt | cʼ <s> ɛʸ </s> t |
+| Mesqan-Kitchen-2009-95-81-1 | Mesqan | Kitchen-2009-95-81 | sɔʷst | s <s> ɔʷ </s> s t |
+| Mesqan-Kitchen-2009-95-84-1 | Mesqan | Kitchen-2009-95-84 | sɔʷst | s <s> ɔʷ </s> s t |
+| MoroccanArabic-Kitchen-2009-95-71-1 | MoroccanArabic | Kitchen-2009-95-71 | doxxan | d o <s> xx </s> a n |
+| Tigrinya-Kitchen-2009-95-94-1 | Tigrinya | Kitchen-2009-95-94 | sɛbeʸti | s ɛ b <s> eʸ </s> t i |
+| Ugaritic-Kitchen-2009-95-15-2 | Ugaritic | Kitchen-2009-95-15 | 'tw | <s> ʼt </s> w |
+| Ugaritic-Kitchen-2009-95-23-1 | Ugaritic | Kitchen-2009-95-23 | 'n | <s> ʼn </s> |
+| Ugaritic-Kitchen-2009-95-36-1 | Ugaritic | Kitchen-2009-95-36 | ʃ m ' | ʃ _ m <s> _ʼ </s> |
+| Ugaritic-Kitchen-2009-95-41-1 | Ugaritic | Kitchen-2009-95-41 | y d ' | j _ d <s> _ʼ </s> |
+| Ugaritic-Kitchen-2009-95-65-2 | Ugaritic | Kitchen-2009-95-65 |  d y | <s>  </s> _ d _ j |
+| Ugaritic-Kitchen-2009-95-67-1 | Ugaritic | Kitchen-2009-95-67 | y t 'b | j _ t <s> _ʼ </s> b |
+| Ugaritic-Kitchen-2009-95-78-1 | Ugaritic | Kitchen-2009-95-78 | ɵ'n b | <s> ɵʼ </s> n _ b |
+| Walani-Kitchen-2009-95-1-1 | Walani | Kitchen-2009-95-1 | ullImka | u lː <s> I </s> m k a |
+| Zway-Kitchen-2009-95-70-1 | Zway | Kitchen-2009-95-70 | t'i:ʸt | tʼ <s> i:ʸ </s> t |
+| Zway-Kitchen-2009-95-92-1 | Zway | Kitchen-2009-95-92 | go:'mara | g <s> o:ʼ </s> m a r a |
 
 (73 rows)
 
