@@ -31,8 +31,6 @@ I can't see these three in Leslau, Gelb, Sobelman & Harrel or Rabin or Bender.
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
-![BIPA: 78%](https://img.shields.io/badge/BIPA-78%25-yellow.svg "BIPA: 78%")
-![CLTS SoundClass: 78%](https://img.shields.io/badge/CLTS%20SoundClass-78%25-yellow.svg "CLTS SoundClass: 78%")
 
 - **Varieties:** 25
 - **Concepts:** 95
@@ -41,7 +39,3 @@ I can't see these three in Leslau, Gelb, Sobelman & Harrel or Rabin or Bender.
 - **Synonymy:** 1.02
 - **Cognacy:** 2,074 cognates in 663 cognate sets (340 singletons)
 - **Cognate Diversity:** 0.26
-- **Invalid lexemes:** 0
-- **Tokens:** 10,221
-- **Segments:** 190 (41 BIPA errors, 41 CTLS sound class errors, 150 CLTS modified)
-- **Inventory size (avg):** 44.16
