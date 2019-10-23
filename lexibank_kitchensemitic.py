@@ -70,12 +70,12 @@ class Dataset(BaseDataset):
         for concept in self.conceptlist.concepts.values():
             concepts[concept.english] = concept.id
 
-        args.writer.add_concepts(id_factory=lambda c: c.id)
-
         for language in self.languages:
             languages[language["Name"]] = (language["ID"], language["Sources"].split(";"))
 
+        args.writer.add_concepts(id_factory=lambda c: c.id)
         args.writer.add_languages()
+        args.writer.add_sources()
 
         for row in pb(lexeme_rows, desc=f"Build CLDF for {self.id}"):
             row = dict(zip(lexeme_header, row))
@@ -83,6 +83,8 @@ class Dataset(BaseDataset):
 
             for lang, lexeme in row.items():
                 lid, src = languages[lang]
+                # Lookup is based on the relabled words (see above) due to gloss
+                # mismatches between the two tables.
                 cogs = cognate_table[lang][RELABLE_WORDS.get(gloss, gloss.upper())]
 
                 # Note that we cannot use the internal splitting algorithm, because of individual
@@ -90,6 +92,19 @@ class Dataset(BaseDataset):
                 forms = self.form_spec.split(item=None, value=lexeme)
                 cogs = self.form_spec.split(item=None, value=cogs)
 
+                # Add a non-cognate marker for forms without cognate information. Additionally,
+                # instances with more cognates than forms are ignored, for example
+                # Harsusi's "ges'" - RAIN (N.) = D/I.
+                # Likewise, there exist forms that have no lexemes but do have cognate information.
+                # These are ignored as well:
+                #  Mɛhri Dog --- D
+                #  Mɛhri Dry (adj.) --- F
+                #  Hebrew Grass --- C/J
+                #  Hebrew New --- A
+                #  Mɛhri Seed --- C
+                #  Hebrew Three --- A
+                #  Mɛhri Warm --- H
+                #  Hebrew Ye --- A
                 if len(forms) > len(cogs):
                     cogs.extend("-" for _ in range(len(forms) - len(cogs)))
 

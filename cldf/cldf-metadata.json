@@ -8,6 +8,7 @@
     ],
     "dc:isVersionOf": null,
     "dc:related": "http://rspb.royalsocietypublishing.org/content/early/2009/04/27/rspb.2009.0408",
+    "dc:source": "sources.bib",
     "dc:title": "Lexicostatistic Wordlist of Semitic Languages",
     "dcat:accessURL": "git@github.com:lexibank/kitchensemitic",
     "prov:wasDerivedFrom": [
@@ -15,7 +16,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "git@github.com:lexibank/kitchensemitic",
-            "dc:created": "1b62b7b"
+            "dc:created": "dc6c9dd"
         },
         {
             "rdf:type": "prov:Entity",

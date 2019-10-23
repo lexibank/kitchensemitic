@@ -11,7 +11,7 @@ decorator==4.4.0
 idna==2.8
 isodate==0.6.0
 jdcal==1.4.1
--e git+git@github.com:lexibank/kitchensemitic.git@1b62b7b029cf3d7c830ece91ade8c86236537194#egg=lexibank_kitchensemitic
+-e git+git@github.com:lexibank/kitchensemitic.git@dc6c9dddfcaaed4ca2d8d41d4302c4fe10922c7e#egg=lexibank_kitchensemitic
 lingpy==2.6.5
 Markdown==3.1.1
 networkx==2.1
