@@ -1,96 +1,96 @@
 ID,Name,Concepticon_ID,Concepticon_Gloss
-Kitchen-2009-95-1,All,98,ALL
-Kitchen-2009-95-2,Ashes,646,ASH
-Kitchen-2009-95-3,Bark (tree),1204,BARK
-Kitchen-2009-95-4,Belly,1251,BELLY
-Kitchen-2009-95-5,Big,1202,BIG
-Kitchen-2009-95-6,Bird,937,BIRD
-Kitchen-2009-95-7,Bite (v.),1403,BITE
-Kitchen-2009-95-8,Black,163,BLACK
-Kitchen-2009-95-9,Blood,946,BLOOD
-Kitchen-2009-95-10,Bone,1394,BONE
-Kitchen-2009-95-11,Breast,1402,BREAST
-Kitchen-2009-95-12,Burn (tr. v.),141,BURN (SOMETHING)
-Kitchen-2009-95-13,Cloud,1489,CLOUD
-Kitchen-2009-95-14,Cold (air),1287,COLD
-Kitchen-2009-95-15,Come,1446,COME
-Kitchen-2009-95-16,Die,1494,DIE
-Kitchen-2009-95-17,Dog,2009,DOG
-Kitchen-2009-95-18,Drink (v.),1401,DRINK
-Kitchen-2009-95-19,Dry (adj.),1398,DRY
-Kitchen-2009-95-20,Ear,1247,EAR
-Kitchen-2009-95-21,Eat,1336,EAT
-Kitchen-2009-95-22,Egg,744,EGG
-Kitchen-2009-95-23,Eye,1248,EYE
-Kitchen-2009-95-24,Fat (n.),323,FAT (ORGANIC SUBSTANCE)
-Kitchen-2009-95-25,Fire,221,FIRE
-Kitchen-2009-95-26,Fish (n.),227,FISH
-Kitchen-2009-95-27,Fly (n.),1504,FLY (INSECT)
-Kitchen-2009-95-28,Foot,1301,FOOT
-Kitchen-2009-95-29,Give,1447,GIVE
-Kitchen-2009-95-30,Go,695,GO
-Kitchen-2009-95-31,Good,1035,GOOD
-Kitchen-2009-95-32,Grass,606,GRASS
-Kitchen-2009-95-33,Hair (head),2648,HAIR (HEAD)
-Kitchen-2009-95-34,Hand,1277,HAND
-Kitchen-2009-95-35,Head,1256,HEAD
-Kitchen-2009-95-36,Hear,1408,HEAR
-Kitchen-2009-95-37,Heart,1223,HEART
-Kitchen-2009-95-38,Horn,1393,HORN (ANATOMY)
-Kitchen-2009-95-39,I,1209,I
-Kitchen-2009-95-40,Kill,1417,KILL
-Kitchen-2009-95-41,Know,1410,KNOW (SOMETHING)
-Kitchen-2009-95-42,Knee,1371,KNEE
-Kitchen-2009-95-43,Leaf,628,LEAF
-Kitchen-2009-95-44,Liver,1224,LIVER
-Kitchen-2009-95-45,Long,1203,LONG
-Kitchen-2009-95-46,Louse,1392,LOUSE
-Kitchen-2009-95-47,Man,1554,MAN
-Kitchen-2009-95-48,Many,1198,MANY
-Kitchen-2009-95-49,Meat,634,MEAT
-Kitchen-2009-95-50,Moon,1313,MOON
-Kitchen-2009-95-51,Mountain,639,MOUNTAIN
-Kitchen-2009-95-52,Mouth,674,MOUTH
-Kitchen-2009-95-53,Name,1405,NAME
-Kitchen-2009-95-54,Neck,1333,NECK
-Kitchen-2009-95-55,New,1231,NEW
-Kitchen-2009-95-56,Night,1233,NIGHT
-Kitchen-2009-95-57,Nose,1221,NOSE
-Kitchen-2009-95-58,One,1493,ONE
-Kitchen-2009-95-59,Rain (n.),658,RAIN (PRECIPITATION)
-Kitchen-2009-95-60,Red,156,RED
-Kitchen-2009-95-61,Road,667,ROAD
-Kitchen-2009-95-62,Root,670,ROOT
-Kitchen-2009-95-63,Sand,671,SAND
-Kitchen-2009-95-64,Say,1458,SAY
-Kitchen-2009-95-65,See,1409,SEE
-Kitchen-2009-95-66,Seed,714,SEED
-Kitchen-2009-95-67,Sit,1416,SIT
-Kitchen-2009-95-68,Skin (human),2613,SKIN (HUMAN)
-Kitchen-2009-95-69,Sleep (v.),1585,SLEEP
-Kitchen-2009-95-70,Small,1246,SMALL
-Kitchen-2009-95-71,Smoke (n.),778,SMOKE (EXHAUST)
-Kitchen-2009-95-72,Snake,730,SNAKE
-Kitchen-2009-95-73,Stand,1442,STAND
-Kitchen-2009-95-74,Star,1430,STAR
-Kitchen-2009-95-75,Stone,857,STONE
-Kitchen-2009-95-76,Sun,1343,SUN
-Kitchen-2009-95-77,Swim,1439,SWIM
-Kitchen-2009-95-78,Tail,1220,TAIL
-Kitchen-2009-95-79,Thin,2308,THIN
-Kitchen-2009-95-80,This,1214,THIS
-Kitchen-2009-95-81,Three,492,THREE
-Kitchen-2009-95-82,Thou,1215,THOU
-Kitchen-2009-95-83,Tongue,1205,TONGUE
-Kitchen-2009-95-84,Tooth,1380,TOOTH
-Kitchen-2009-95-85,Tree,906,TREE
-Kitchen-2009-95-86,Two,1498,TWO
-Kitchen-2009-95-87,Warm,1232,WARM
-Kitchen-2009-95-88,Water,948,WATER
-Kitchen-2009-95-89,We,1212,WE
-Kitchen-2009-95-90,Wet,1726,WET
-Kitchen-2009-95-91,What?,1236,WHAT
-Kitchen-2009-95-92,White,1335,WHITE
-Kitchen-2009-95-93,Who?,1235,WHO
-Kitchen-2009-95-94,Woman,962,WOMAN
-Kitchen-2009-95-95,Ye,1213,YOU
+1_all,All,98,ALL
+2_ashes,Ashes,646,ASH
+3_barktree,Bark (tree),1204,BARK
+4_belly,Belly,1251,BELLY
+5_big,Big,1202,BIG
+6_bird,Bird,937,BIRD
+7_bitev,Bite (v.),1403,BITE
+8_black,Black,163,BLACK
+9_blood,Blood,946,BLOOD
+10_bone,Bone,1394,BONE
+11_breast,Breast,1402,BREAST
+12_burntrv,Burn (tr. v.),141,BURN (SOMETHING)
+13_cloud,Cloud,1489,CLOUD
+14_coldair,Cold (air),1287,COLD
+15_come,Come,1446,COME
+16_die,Die,1494,DIE
+17_dog,Dog,2009,DOG
+18_drinkv,Drink (v.),1401,DRINK
+19_dryadj,Dry (adj.),1398,DRY
+20_ear,Ear,1247,EAR
+21_eat,Eat,1336,EAT
+22_egg,Egg,744,EGG
+23_eye,Eye,1248,EYE
+24_fatn,Fat (n.),323,FAT (ORGANIC SUBSTANCE)
+25_fire,Fire,221,FIRE
+26_fishn,Fish (n.),227,FISH
+27_flyn,Fly (n.),1504,FLY (INSECT)
+28_foot,Foot,1301,FOOT
+29_give,Give,1447,GIVE
+30_go,Go,695,GO
+31_good,Good,1035,GOOD
+32_grass,Grass,606,GRASS
+33_hairhead,Hair (head),2648,HAIR (HEAD)
+34_hand,Hand,1277,HAND
+35_head,Head,1256,HEAD
+36_hear,Hear,1408,HEAR
+37_heart,Heart,1223,HEART
+38_horn,Horn,1393,HORN (ANATOMY)
+39_i,I,1209,I
+40_kill,Kill,1417,KILL
+41_know,Know,1410,KNOW (SOMETHING)
+42_knee,Knee,1371,KNEE
+43_leaf,Leaf,628,LEAF
+44_liver,Liver,1224,LIVER
+45_long,Long,1203,LONG
+46_louse,Louse,1392,LOUSE
+47_man,Man,1554,MAN
+48_many,Many,1198,MANY
+49_meat,Meat,634,MEAT
+50_moon,Moon,1313,MOON
+51_mountain,Mountain,639,MOUNTAIN
+52_mouth,Mouth,674,MOUTH
+53_name,Name,1405,NAME
+54_neck,Neck,1333,NECK
+55_new,New,1231,NEW
+56_night,Night,1233,NIGHT
+57_nose,Nose,1221,NOSE
+58_one,One,1493,ONE
+59_rainn,Rain (n.),658,RAIN (PRECIPITATION)
+60_red,Red,156,RED
+61_road,Road,667,ROAD
+62_root,Root,670,ROOT
+63_sand,Sand,671,SAND
+64_say,Say,1458,SAY
+65_see,See,1409,SEE
+66_seed,Seed,714,SEED
+67_sit,Sit,1416,SIT
+68_skinhuman,Skin (human),2613,SKIN (HUMAN)
+69_sleepv,Sleep (v.),1585,SLEEP
+70_small,Small,1246,SMALL
+71_smoken,Smoke (n.),778,SMOKE (EXHAUST)
+72_snake,Snake,730,SNAKE
+73_stand,Stand,1442,STAND
+74_star,Star,1430,STAR
+75_stone,Stone,857,STONE
+76_sun,Sun,1343,SUN
+77_swim,Swim,1439,SWIM
+78_tail,Tail,1220,TAIL
+79_thin,Thin,2308,THIN
+80_this,This,1214,THIS
+81_three,Three,492,THREE
+82_thou,Thou,1215,THOU
+83_tongue,Tongue,1205,TONGUE
+84_tooth,Tooth,1380,TOOTH
+85_tree,Tree,906,TREE
+86_two,Two,1498,TWO
+87_warm,Warm,1232,WARM
+88_water,Water,948,WATER
+89_we,We,1212,WE
+90_wet,Wet,1726,WET
+91_what,What?,1236,WHAT
+92_white,White,1335,WHITE
+93_who,Who?,1235,WHO
+94_woman,Woman,962,WOMAN
+95_ye,Ye,1213,YOU

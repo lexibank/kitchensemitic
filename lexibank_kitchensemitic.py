@@ -4,7 +4,9 @@ import attr
 from pylexibank import Language
 from pylexibank.dataset import Dataset as BaseDataset
 from pylexibank.forms import FormSpec
-from pylexibank.util import pb
+from pylexibank.util import progressbar
+
+from clldutils.misc import slug
 
 # Correct mismatches between the lexeme table and the table coding the cognate information.
 RELABLE_LANGUAGES = {
@@ -58,6 +60,19 @@ class Dataset(BaseDataset):
         self.raw_dir.xls2csv("Semitic.Codings.Multistate.xlsx")
 
     def cmd_makecldf(self, args):
+        concepts = args.writer.add_concepts(
+            id_factory=lambda x: x.id.split('-')[-1]+'_'+slug(x.english), lookup_factory="Name"
+        )
+
+        args.writer.add_languages()
+
+        languages = {}  # We use the language map for an easier sources lookup.
+
+        for language in self.languages:
+            languages[language["Name"]] = (language["ID"], language["Sources"].split(";"))
+
+        args.writer.add_sources()
+
         lexeme_rows = self.raw_dir.read_csv("Semitic.Wordlists.ActualWordlists.csv")
         lexeme_header = lexeme_rows.pop(0)
 
@@ -65,19 +80,7 @@ class Dataset(BaseDataset):
             self.raw_dir.read_csv("Semitic.Codings.Multistate.Sheet1.csv")
         )
 
-        languages, concepts = {}, {}
-
-        for concept in self.conceptlist.concepts.values():
-            concepts[concept.english] = concept.id
-
-        for language in self.languages:
-            languages[language["Name"]] = (language["ID"], language["Sources"].split(";"))
-
-        args.writer.add_concepts(id_factory=lambda c: c.id)
-        args.writer.add_languages()
-        args.writer.add_sources()
-
-        for row in pb(lexeme_rows, desc=f"Build CLDF for {self.id}"):
+        for row in progressbar(lexeme_rows):
             row = dict(zip(lexeme_header, row))
             gloss = row.pop("Gloss")
 
