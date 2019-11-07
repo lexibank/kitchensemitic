@@ -42,14 +42,14 @@ def make_cognate_table(kitchensemitic_cognate_table):
 
 
 @attr.s
-class KSLanguage(Language):
+class CustomLanguage(Language):
     Sources = attr.ib(default=None)
 
 
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
     id = "kitchensemitic"
-    language_class = KSLanguage
+    language_class = CustomLanguage
 
     form_spec = FormSpec(
         brackets={}, separators="/,", missing_data=("---",), strip_inside_brackets=False
