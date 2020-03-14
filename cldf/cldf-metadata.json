@@ -17,7 +17,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/kitchensemitic",
-            "dc:created": "b1e09f8"
+            "dc:created": "810fbf7"
         },
         {
             "rdf:type": "prov:Entity",
