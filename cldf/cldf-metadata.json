@@ -7,6 +7,7 @@
         "http://concepticon.clld.org/contributions/Kitchen-2009-95"
     ],
     "dc:isVersionOf": null,
+    "dc:license": "https://creativecommons.org/licenses/by-nc/4.0/",
     "dc:related": "http://rspb.royalsocietypublishing.org/content/early/2009/04/27/rspb.2009.0408",
     "dc:source": "sources.bib",
     "dc:title": "Lexicostatistic Wordlist of Semitic Languages",
@@ -16,19 +17,19 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/kitchensemitic",
-            "dc:created": "3efec43"
+            "dc:created": "b1e09f8"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Glottolog",
             "rdf:about": "https://github.com/glottolog/glottolog",
-            "dc:created": "v4.0-56-g185d304cba"
+            "dc:created": "v4.1"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Concepticon",
             "rdf:about": "https://github.com/concepticon/concepticon-data",
-            "dc:created": "v2.2.0-4-gaadba44"
+            "dc:created": "v2.3.0"
         },
         {
             "rdf:type": "prov:Entity",

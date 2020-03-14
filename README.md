@@ -4,6 +4,8 @@ Cite the source dataset as
 
 > Bayesian phylogenetic analysis of Semitic languages identifies an Early Bronze Age origin of Semitic in the Near East. Andrew Kitchen, Christopher Ehret, Shiferaw Assefa, Connie J. Mulligan. Proc. R. Soc. B 2009 -; DOI: 10.1098/rspb.2009.0408. Published 29 April 2009
 
+This dataset is licensed under a https://creativecommons.org/licenses/by-nc/4.0/ license
+
 
 See also http://rspb.royalsocietypublishing.org/content/early/2009/04/27/rspb.2009.0408
 
@@ -40,3 +42,11 @@ I can't see these three in Leslau, Gelb, Sobelman & Harrel or Rabin or Bender.
 - **Synonymy:** 1.02
 - **Cognacy:** 2,074 cognates in 663 cognate sets (340 singletons)
 - **Cognate Diversity:** 0.26
+
+# Contributors
+
+Name | GitHub user | Role
+--- | --- | ---
+Simon Greenhill | @SimonGreenhill | maintainer
+
+
