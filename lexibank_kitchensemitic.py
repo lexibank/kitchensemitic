@@ -9,7 +9,7 @@ from pylexibank.util import progressbar
 from clldutils.misc import slug
 
 # Correct mismatches between the lexeme table and the table coding the cognate information.
-RELABLE_LANGUAGES = {
+RELABEL_LANGUAGES = {
     "Ge'ez": "Gɛ'ɛz",
     "Tigre": "Tigrɛ",
     "Walani": "ʷalani",
@@ -19,7 +19,7 @@ RELABLE_LANGUAGES = {
 }
 
 # Correct mismatches between the lexeme table and the table coding the cognate information.
-RELABLE_WORDS = {
+RELABEL_WORDS = {
     "Cold (air)": "COLD (OF AIR)",
     "Fat (n.)": "FAT",
     "Fish (n.)": "FISH",
@@ -36,7 +36,7 @@ def make_cognate_table(kitchensemitic_cognate_table):
     for row in cognate_rows:
         row = dict(zip(cognate_header, row))
         language = row.pop("")  # This is the untitled first column in the cognate table.
-        cognates[RELABLE_LANGUAGES.get(language, language)] = row
+        cognates[RELABEL_LANGUAGES.get(language, language)] = row
 
     return cognates
 
@@ -61,7 +61,8 @@ class Dataset(BaseDataset):
 
     def cmd_makecldf(self, args):
         concepts = args.writer.add_concepts(
-            id_factory=lambda x: x.id.split('-')[-1]+'_'+slug(x.english), lookup_factory="Name"
+            id_factory=lambda x: x.id.split('-')[-1] + '_' + slug(x.english),
+            lookup_factory="Name"
         )
 
         args.writer.add_languages()
@@ -69,7 +70,7 @@ class Dataset(BaseDataset):
         languages = {}  # We use the language map for an easier sources lookup.
 
         for language in self.languages:
-            languages[language["Name"]] = (language["ID"], language["Sources"].split(";"))
+            languages[language["Name"]] = (language["ID"], sorted(language["Sources"].split(";")))
 
         args.writer.add_sources()
 
@@ -88,7 +89,7 @@ class Dataset(BaseDataset):
                 lid, src = languages[lang]
                 # Lookup is based on the relabled words (see above) due to gloss
                 # mismatches between the two tables.
-                cogs = cognate_table[lang][RELABLE_WORDS.get(gloss, gloss.upper())]
+                cogs = cognate_table[lang][RELABEL_WORDS.get(gloss, gloss.upper())]
 
                 # Note that we cannot use the internal splitting algorithm, because of individual
                 # problems in the source data cells. Thus, we call form_spec explicitly.
