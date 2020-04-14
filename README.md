@@ -1,4 +1,4 @@
-# Lexicostatistic Wordlist of Semitic Languages
+# CLDF dataset derived from Kitchen et al.'s "Bayesian phylogenetic analysis of Semitic languages identifies an Early Bronze Age origin of Semitic in the Near East" from 2009.
 
 Cite the source dataset as
 
@@ -45,8 +45,8 @@ I can't see these three in Leslau, Gelb, Sobelman & Harrel or Rabin or Bender.
 
 # Contributors
 
-Name | GitHub user | Role
---- | --- | ---
-Simon Greenhill | @SimonGreenhill | maintainer
+Name               | GitHub user     | Description                          | Role
+---                | ---             | ---                                  | ---
+Simon J. Greenhill | @SimonGreenhill | patron                               | Author
 
 

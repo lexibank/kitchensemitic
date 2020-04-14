@@ -10,14 +10,14 @@
     "dc:license": "https://creativecommons.org/licenses/by-nc/4.0/",
     "dc:related": "http://rspb.royalsocietypublishing.org/content/early/2009/04/27/rspb.2009.0408",
     "dc:source": "sources.bib",
-    "dc:title": "Lexicostatistic Wordlist of Semitic Languages",
+    "dc:title": "CLDF dataset derived from Kitchen et al.'s \"Bayesian phylogenetic analysis of Semitic languages identifies an Early Bronze Age origin of Semitic in the Near East\" from 2009.",
     "dcat:accessURL": "https://github.com/lexibank/kitchensemitic",
     "prov:wasDerivedFrom": [
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/kitchensemitic",
-            "dc:created": "b29d6cf"
+            "dc:created": "ecd1f6d"
         },
         {
             "rdf:type": "prov:Entity",
@@ -117,6 +117,14 @@
                     {
                         "datatype": "boolean",
                         "name": "Loan"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Graphemes"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Profile"
                     }
                 ],
                 "foreignKeys": [
