@@ -1,4 +1,4 @@
-# CLDF dataset derived from Kitchen et al.'s "Bayesian phylogenetic analysis of Semitic languages identifies an Early Bronze Age origin of Semitic in the Near East" from 2009.
+# CLDF dataset derived from Kitchen et al.'s "Bayesian phylogenetic analysis of Semitic languages" from 2009
 
 Cite the source dataset as
 
