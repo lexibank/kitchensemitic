@@ -1,0 +1,25 @@
+{
+    "title": "CLDF dataset derived from Kitchen et al.'s \"Bayesian phylogenetic analysis of Semitic languages\" from 2009",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+    ],
+    "creators": [
+        {
+            "name": "Simon J. Greenhill"
+        }
+    ],
+    "contributors": [],
+    "communities": [
+        {
+            "identifier": "lexibank"
+        }
+    ],
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Bayesian phylogenetic analysis of Semitic languages identifies an Early Bronze Age origin of Semitic in the Near East. Andrew Kitchen, Christopher Ehret, Shiferaw Assefa, Connie J. Mulligan. Proc. R. Soc. B 2009 -; DOI: 10.1098/rspb.2009.0408. Published 29 April 2009</p>\n</blockquote>",
+    "license": {
+        "id": "CC-BY-NC-4.0"
+    }
+}
+
