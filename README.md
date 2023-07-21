@@ -1,5 +1,7 @@
 # CLDF dataset derived from Kitchen et al.'s "Bayesian phylogenetic analysis of Semitic languages" from 2009
 
+[![CLDF validation](https://github.com/lexibank/kitchensemitic/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/kitchensemitic/actions?query=workflow%3ACLDF-validation)
+
 ## How to cite
 
 If you use these data please cite
@@ -36,7 +38,7 @@ I can't see these three in Leslau, Gelb, Sobelman & Harrel or Rabin or Bender.
 ## Statistics
 
 
-[![Build Status](https://travis-ci.org/lexibank/kitchensemitic.svg?branch=master)](https://travis-ci.org/lexibank/kitchensemitic)
+[![CLDF validation](https://github.com/lexibank/kitchensemitic/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/kitchensemitic/actions?query=workflow%3ACLDF-validation)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
