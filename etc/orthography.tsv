@@ -1,0 +1,372 @@
+Grapheme	IPA	Examples	Languages	Frequence	Codepoints
+^	NULL				
+$	NULL				
+a	a	kal, ħamɛd	OgadenArabic, Tigre, Hebrew, Akkadian, Aramaic, Gibbali, Mehri, Geez, Harsusi, Tigrinya, Soqotri, Argobba, Zway, Mesmes, Ugaritic, Mesqan, Harari, Chaha, MoroccanArabic, Amharic, Geto	100	U+0061
+ɛ	ɛ	dɛm, nɛkɛsɛ-m	Chaha, Argobba, Soddo, Geto, Amharic, Geez, Mesqan, Harari, Tigrinya, Innemor, Zway, Gafat, Walani, Mesmes, Gibbali	100	U+025b
+a$	a	dɛmmɛna, asa	Aramaic, Mesmes, Tigre, Argobba, Amharic, Soddo, Innemor, Zway, MoroccanArabic, Geez, Chaha, Walani, Mesqan, Geto, OgadenArabic, Harari, Harsusi, Mehri, Akkadian, Tigrinya, Gibbali, Gafat	100	U+0061 U+0024
+ɨ	ɨ	zɨmb, atˤɨm	Geez, Tigre, Amharic, Geto, Chaha, Soddo, Tigrinya, Zway, Gafat, Innemor, Argobba, Walani, Mesqan	100	U+0268
+r	r	dɛrɛkˤ, bɨrd	Aramaic, Akkadian, Gafat, Innemor, Chaha, Tigre, Argobba, Geto, Mesmes, Harari, Mehri, Walani, MoroccanArabic, Amharic, Gibbali, OgadenArabic, Ugaritic, Harsusi, Zway, Soddo, Soqotri, Geez, Tigrinya, Hebrew, Mesqan	100	U+0072
+e	e	derek, ħeyɵen	Harsusi, MoroccanArabic, Hebrew, Mehri, Soqotri, Aramaic, Akkadian, Gibbali, Gafat, Amharic, Geto	100	U+0065
+n	n	gunɛr, dɛmmɛna	Chaha, Geto, Gafat, Tigrinya, Zway, Akkadian, Innemor, Mesqan, Aramaic, Tigre, Argobba, Soddo, Walani, Amharic, Geez, Mesmes, MoroccanArabic, Harari, Hebrew	100	U+006e
+ɛ$	ɛ	nɛkkɛsɛ, gɨyɛ	Gafat, Harari, Geez, Innemor, Chaha, Amharic, Tigrinya, Mesqan, Soddo, Geto, Mesmes, MoroccanArabic, Walani, Gibbali	100	U+025b U+0024
+^a	a	asa, af	Mesqan, Akkadian, Innemor, Hebrew, Amharic, Chaha, Soddo, Geto, Gafat, Harsusi, Argobba, Walani, Aramaic, Ugaritic, Zway, Tigrinya, Gibbali, MoroccanArabic, Mesmes	100	U+005e U+0061
+m	m	zɨmb, amɛd	Innemor, Akkadian, Aramaic, Walani, Mesqan, Geto, Chaha, Zway, Soddo, Geez, OgadenArabic, Tigrinya, Mesmes, Harari, Harsusi, Tigre, Argobba, Gafat, Soqotri, Amharic, Ugaritic, Mehri, MoroccanArabic, Hebrew	100	U+006d
+r$	r	gunɛr, sar	Innemor, Chaha, Soqotri, Geto, Harsusi, Zway, Mesqan, Gibbali, Harari, Hebrew, OgadenArabic, Mehri, Tigre, Soddo, Amharic, Ugaritic, Argobba, Walani, MoroccanArabic, Geez, Gafat, Akkadian	100	U+0072 U+0024
+i	i	kaħihin, ʔisim	Gibbali, OgadenArabic, Harari, Akkadian, Soqotri, MoroccanArabic, Gafat, Mehri, Aramaic, Tigrinya, Hebrew, Harsusi, Tigre, Geez, Argobba, Mesqan, Ugaritic, Zway, Soddo, Mesmes, Chaha, Walani, Amharic	100	U+0069
+n$	n	tɛn, xʸɨn	Zway, Hebrew, Harsusi, MoroccanArabic, OgadenArabic, Ugaritic, Soddo, Harari, Chaha, Mehri, Walani, Soqotri, Mesqan, Geto, Geez, Tigre, Innemor, Argobba, Akkadian, Tigrinya, Amharic, Mesmes	100	U+006e U+0024
+^s	s	sɛb, sɨm	Tigre, Tigrinya, Geez, OgadenArabic, Harari, Gafat, Zway, Amharic, Gibbali, Argobba, Soddo, Chaha, Innemor, Geto, Mesmes, Walani, Soqotri, Mesqan, Mehri, Aramaic, Hebrew, MoroccanArabic, Harsusi	100	U+005e U+0073
+u	u	gunɛr, gulbɛt	Tigrinya, OgadenArabic, Walani, Harari, Innemor, Amharic, Aramaic, Akkadian, Soddo, Geto, Mehri, Chaha, Tigre, Gafat, Zway, Argobba, MoroccanArabic, Geez, Mesmes, Gibbali	100	U+0075
+o	o	mot, kˤoto	Harsusi, Soqotri, Hebrew, Geez, Mesmes, Mehri, Walani, MoroccanArabic, Amharic, Tigrinya, Gibbali, Chaha, Geto, Zway, Harari, Argobba, Gafat, Soddo, Innemor, Mesqan	100	U+006f
+^m	m	mot, mukˤ	Soddo, Ugaritic, Tigrinya, Innemor, Chaha, Argobba, Akkadian, Amharic, Geto, Geez, Harsusi, Mehri, Aramaic, Mesmes, Gibbali, Tigre, Gafat, Zway, OgadenArabic, Harari, Soqotri, Hebrew, Mesqan, MoroccanArabic, Walani	100	U+005e U+006d
+t$	t	angɛt, ɨsat	Mehri, Gibbali, Amharic, Zway, Harsusi, Ugaritic, Chaha, Soddo, Geto, Harari, Tigre, Walani, Argobba, Mesqan, Geez, Gafat, OgadenArabic, Tigrinya, Innemor, Soqotri, MoroccanArabic	100	U+0074 U+0024
+s	s	asa, bɛsɛr	Chaha, Innemor, Geto, Mesqan, Tigrinya, Mesmes, Harari, Gafat, Soddo, OgadenArabic, Tigre, Amharic, Geez, Gibbali, Argobba, Zway, Walani, Aramaic, Harsusi, Akkadian, Soqotri, MoroccanArabic	100	U+0073
+m$	m	sɨm, dɛm	Chaha, Soddo, Geto, Tigre, Hebrew, OgadenArabic, Argobba, Geez, Harari, Harsusi, Zway, Walani, Ugaritic, Mehri, Tigrinya, Soqotri, Mesqan, MoroccanArabic, Amharic, Innemor, Gibbali, Mesmes	100	U+006d U+0024
+l	l	gulbɛt, kˤalb	Akkadian, Tigrinya, Tigre, Soddo, MoroccanArabic, Amharic, Geez, Harari, Aramaic, Argobba, Gafat, Soqotri, Ugaritic, Hebrew, Gibbali, Harsusi, Mesqan, OgadenArabic, Mehri, Zway, Walani	100	U+006c
+b	b	gulbɛt, sɨbɨħ	Tigre, Tigrinya, OgadenArabic, MoroccanArabic, Akkadian, Zway, Soqotri, Geez, Harari, Mehri, Gafat, Soddo, Mesqan, Ugaritic, Harsusi, Gibbali, Argobba, Walani, Amharic, Geto, Mesmes, Aramaic, Chaha	100	U+0062
+^kˤ	kˤ	kˤɨmal, kˤoto	Tigre, Harari, Aramaic, Tigrinya, MoroccanArabic, Amharic, Chaha, Akkadian, Zway, Geez, Mesmes, Harsusi, Soddo, Mehri, Argobba, Walani, Innemor, Hebrew, Mesqan, Geto, Gibbali, Ugaritic, Gafat, Soqotri	100	U+005e U+006b U+02e4
+u$	u	ʃu, tˤu	Akkadian, Gibbali, Geez, Amharic, Argobba, Innemor, Aramaic, Tigre, Soddo, Geto, Tigrinya, Harari	100	U+0075 U+0024
+^k	k	kokɛb, kal	Harsusi, Akkadian, Tigrinya, Tigre, MoroccanArabic, OgadenArabic, Ugaritic, Aramaic, Hebrew, Geez, Argobba, Gafat, Soqotri, Soddo, Mesmes, Gibbali, Harari, Mehri, Walani, Innemor, Mesqan, Zway, Amharic	100	U+005e U+006b
+^b	b	bɛsɛr, bɨsa	Harari, Walani, Tigre, Mehri, Chaha, Zway, Soddo, Hebrew, Geez, Harsusi, Gafat, Tigrinya, Innemor, Mesqan, MoroccanArabic, Geto, Mesmes, OgadenArabic, Ugaritic, Aramaic, Argobba, Amharic, Akkadian, Soqotri	100	U+005e U+0062
+_	_	k b k b, ħ l kˤ ʔ	Ugaritic, Tigrinya, Mehri, Gibbali, Tigre, Mesqan, MoroccanArabic	100	U+005f
+^ʔ	ʔ	ʔaf, ʔɨgɨr	Harari, Tigre, Geez, OgadenArabic, Tigrinya, Soqotri, Mehri, Gibbali, Walani, Innemor, Mesmes	100	U+005e U+0294
+^d	d	dɛm, dɛrɛkˤ	Innemor, Argobba, Soddo, Mesmes, Ugaritic, Gafat, Walani, OgadenArabic, Harari, Aramaic, Chaha, Akkadian, Tigrinya, Zway, Hebrew, MoroccanArabic, Amharic, Geto, Tigre, Soqotri, Mesqan, Geez, Harsusi	99	U+005e U+0064
+t	t	kˤoto, kˤɛtɛlɛ	Akkadian, Tigrinya, OgadenArabic, Gafat, Geez, Mesmes, Ugaritic, Tigre, Mehri, MoroccanArabic, Geto, Harari, Soqotri, Gibbali, Harsusi, Chaha, Zway, Walani, Innemor, Mesqan, Amharic, Aramaic, Argobba, Soddo	97	U+0074
+b$	b	zɨmb, sɛb	OgadenArabic, Ugaritic, Harsusi, Zway, Soqotri, Gibbali, Tigre, Soddo, Geez, Argobba, Mesqan, Amharic, Harari, Tigrinya, Walani, MoroccanArabic, Mehri, Chaha, Geto, Gafat, Innemor	96	U+0062 U+0024
+d	d	gɛdɛr, amɛdar	Mesmes, Tigre, Akkadian, Soqotri, Mesqan, Ugaritic, Harari, Harsusi, Gafat, Innemor, MoroccanArabic, Gibbali, Mehri, Tigrinya, Argobba, Zway, Soddo, Chaha, Walani, Amharic, Geto, Geez, OgadenArabic, Aramaic	95	U+0064
+i$	i	ɨnji, zɛri	Tigrinya, Harari, Gibbali, Walani, Argobba, Zway, Harsusi, Mesmes, Tigre, Soqotri, Soddo, OgadenArabic, Mehri, Hebrew, Mesqan, MoroccanArabic, Gafat, Innemor	91	U+0069 U+0024
+a:	aː	ma:lɛkˤ, ma:y	OgadenArabic, Tigre, Zway, Harari, Argobba, Soddo, Innemor, Mesmes, Chaha, Geto	90	U+0061 U+003a
+^n	n	nɛkkɛsɛ, nɨk	Mehri, Akkadian, Tigrinya, MoroccanArabic, Geto, Geez, Gibbali, Harsusi, Aramaic, Chaha, Innemor, Mesqan, Harari, Tigre, Argobba, Soqotri, OgadenArabic, Ugaritic, Gafat, Soddo, Hebrew, Amharic, Mesmes, Zway	90	U+005e U+006e
+^g	g	goga, gunɛr	Zway, Soddo, Harsusi, Innemor, Mesmes, Chaha, Geto, Harari, Ugaritic, Walani, Mesqan, Tigre, Argobba, Amharic, Gibbali, Aramaic, Gafat, Hebrew, Soqotri, MoroccanArabic	88	U+005e U+0067
+y	y	gɨyɛ, ɨya	Mehri, Mesmes, Harsusi, Tigrinya, Chaha, Innemor, MoroccanArabic, Geto, Geez, OgadenArabic, Aramaic, Zway, Hebrew, Soqotri, Gibbali, Soddo, Mesqan, Ugaritic, Harari, Gafat, Amharic	88	U+0079
+-	<?>	cɛnɛ-m, -benɔ:-	Mesmes, Soddo, Chaha, Geto, Mehri, Argobba, Mesqan, Gafat, Geez	87	U+002d
+d$	d	amɛd, bɨrd	OgadenArabic, Argobba, Ugaritic, Innemor, Gibbali, Amharic, Geez, Harsusi, Mehri, MoroccanArabic, Tigre, Soqotri, Harari, Zway, Tigrinya, Walani, Mesqan, Chaha, Soddo, Geto	86	U+0064 U+0024
+^ɨ	ɨ	ɨnna, ɨsat	Gafat, Argobba, Amharic, Chaha, Mesqan, Geto, Walani, Innemor, Zway, Soddo, Mesmes, Tigrinya	77	U+005e U+0268
+g	g	angɛt, goga	Harari, Mesqan, Amharic, Zway, Gafat, Walani, Chaha, Tigre, Argobba, Soddo, Geez, Tigrinya, Innemor, Mesmes, Geto, Ugaritic, MoroccanArabic	73	U+0067
+l$	l	kˤɨmal, kal	MoroccanArabic, OgadenArabic, Harsusi, Mehri, Hebrew, Gibbali, Mesqan, Aramaic, Tigre, Argobba, Amharic, Geez, Ugaritic, Walani, Soddo, Zway, Tigrinya	70	U+006c U+0024
+^h	h	hoh, haba	Mesmes, Argobba, Mehri, Zway, Harsusi, Amharic, Hebrew, Gibbali, MoroccanArabic, Ugaritic, Soqotri, Mesqan, OgadenArabic, Tigre, Tigrinya, Walani	69	U+005e U+0068
+^ħ	ħ	ħamɛd, ħaddis	Harsusi, Mehri, Aramaic, Soqotri, OgadenArabic, Tigrinya, Tigre, MoroccanArabic, Geez, Hebrew, Harari, Gibbali, Ugaritic, Argobba	65	U+005e U+0127
+^ʃ	ʃ	ʃu, ʃini	Akkadian, Gibbali, Hebrew, Soqotri, MoroccanArabic, Aramaic, Ugaritic, Mehri, Harsusi	64	U+005e U+0283
+^r	r	ra:ħ, riʟd	OgadenArabic, Gibbali, MoroccanArabic, Soqotri, Aramaic, Hebrew, Ugaritic, Mehri, Tigre, Geez, Tigrinya, Amharic, Akkadian, Harari, Harsusi, Argobba	62	U+005e U+0072
+^z	z	zɨmb, zɛr	Chaha, Argobba, Soddo, Geez, Gafat, Mesqan, Amharic, Geto, Tigre, Akkadian, Harari, Aramaic, Zway, Walani, Innemor, Hebrew, Gibbali, Ugaritic, Harsusi, Tigrinya, MoroccanArabic, Mesmes	62	U+005e U+007a
+^t	t	tɛn, tetˤ	OgadenArabic, Soqotri, Harsusi, Amharic, Harari, Mesmes, Gibbali, Gafat, Zway, Mehri, Aramaic, Tigrinya, Soddo, Innemor, Mesqan, Ugaritic, Chaha, Tigre, Argobba, Akkadian, Walani, Geto, Geez	60	U+005e U+0074
+k	k	kokɛb, nɛkɛsɛ-m	Akkadian, Harsusi, Gibbali, OgadenArabic, Mehri, Tigre, Argobba, Innemor, Soqotri, MoroccanArabic, Harari, Aramaic, Tigrinya, Zway, Walani, Geto, Ugaritic, Chaha, Gafat, Soddo, Hebrew, Mesqan, Amharic, Geez, Mesmes	59	U+006b
+e$	e	wɛxe, nɛkkɛse	Mesmes, Soqotri, Gibbali, Tigrinya, Zway, Argobba, Walani, Harsusi, Aramaic, Chaha, Gafat, Amharic, Geto, Geez, Innemor	59	U+0065 U+0024
+h$	h	hoh, kˤɛyyɨh	Soqotri, Hebrew, Mehri, Harsusi, Gibbali, Ugaritic, Geez, Aramaic, Tigre, Argobba, Amharic, Harari, Tigrinya	59	U+0068 U+0024
+ħ	ħ	sˤɛħay, sɨbħi	Gibbali, OgadenArabic, Tigrinya, Soqotri, Hebrew, Aramaic, Akkadian, Harsusi, Tigre, MoroccanArabic, Harari, Geez, Mehri, Gafat, Ugaritic	57	U+0127
+^tˤ	tˤ	tˤɨkˤur, tˤub	Amharic, Harari, Zway, Mehri, Aramaic, Chaha, Gafat, Walani, Soqotri, MoroccanArabic, Tigre, Argobba, Tigrinya, Soddo, Mesqan, Geto, Geez, Mesmes, Gibbali, Ugaritic, Harsusi, Innemor, Hebrew	57	U+005e U+0074 U+02e4
+w	w	asɛwa, mwa:n	Harsusi, Geez, Mehri, Mesmes, Chaha, Geto, Tigrinya, OgadenArabic, Argobba, Gafat, Innemor, Mesqan, MoroccanArabic, Ugaritic, Harari, Aramaic, Tigre, Akkadian, Soddo, Walani, Hebrew, Amharic	56	U+0077
+ɔ	ɔ	hɔˤrɔ:-, gɔmbɔnna	Mesmes, Gibbali, Argobba, Soddo, Soqotri, Mesqan, Harari, Zway, Amharic	55	U+0254
+^w	w	wɛxe, wʊssa	Soddo, Harsusi, Gafat, Innemor, MoroccanArabic, Amharic, Mesmes, Mehri, Argobba, Zway, OgadenArabic, Chaha, Tigre, Walani, Mesqan, Ugaritic, Harari, Tigrinya, Geto, Geez	55	U+005e U+0077
+f$	f	af, zaf	MoroccanArabic, Soqotri, Tigre, Mesqan, Soddo, OgadenArabic, Gibbali, Amharic, Geez, Harari, Harsusi, Argobba, Tigrinya, Walani, Zway, Chaha, Geto, Mehri	53	U+0066 U+0024
+^l	l	lɨb, lɨbb	Geez, Ugaritic, Harari, Mehri, Hebrew, Gibbali, OgadenArabic, Aramaic, Akkadian, Tigrinya, MoroccanArabic, Amharic, Tigre, Argobba, Soqotri, Harsusi, Gafat, Soddo, Mesqan	52	U+005e U+006c
+kˤ	kˤ	tˤɨkˤur, ɨnkˤura	Soddo, Harari, Argobba, Amharic, Geto, Mehri, Aramaic, Chaha, Gafat, Soqotri, Tigre, Tigrinya, Zway, Walani, Mesmes, Gibbali, Ugaritic, Akkadian, Innemor, Mesqan, MoroccanArabic	52	U+006b U+02e4
+ʔ	ʔ	gunʔɛr, ju:ʔe	Innemor, Mesmes, Geez, Harari, Tigre, Tigrinya, Hebrew, Soddo	51	U+0294
+tˤ	tˤ	atˤɨm, hatˤɨm	Argobba, Mesqan, Harari, Zway, Hebrew, Aramaic, Chaha, Tigre, Amharic, Soddo, Geez, Ugaritic, Geto, Tigrinya, Walani, MoroccanArabic, Mesmes, Mehri	50	U+0074 U+02e4
+s$	s	ħaddis, ɨrs	Amharic, Geez, OgadenArabic, Tigre, Argobba, Soddo, Gafat, MoroccanArabic, Tigrinya, Harari, Harsusi, Aramaic, Chaha, Geto, Walani, Innemor	50	U+0073 U+0024
+z	z	ɨnzɨr, ʔɨzɨn	Mehri, Chaha, Mesqan, Gibbali, Harari, Walani, OgadenArabic, Tigre, Akkadian, Tigrinya, Zway, Innemor, MoroccanArabic, Geto, Geez, Mesmes, Harsusi, Aramaic, Argobba, Gafat, Soddo, Hebrew, Soqotri, Amharic	49	U+007a
+nn	nn	ɨnna, ɨnnɨm	Mesmes, Gafat, Soddo, Zway, Argobba, Amharic, Geez, Akkadian, Chaha, MoroccanArabic, Geto, Tigrinya, Harari, Walani, Innemor, Harsusi	48	U+006e U+006e
+f	f	anfw, afɨncˤa	Gibbali, Harsusi, Soqotri, Chaha, Soddo, Geto, Harari, Tigrinya, Innemor, Mesmes, Mehri, Tigre, MoroccanArabic, Aramaic, Argobba, Mesqan, Amharic	45	U+0066
+ʃ	ʃ	liʃanu, muʃu	Akkadian, Hebrew, Aramaic, Ugaritic, Mehri, MoroccanArabic, Gibbali, Harsusi	42	U+0283
+ə	ə	təgədɛrə, -təsəkkɔ-	Mesqan, Soddo, Walani, Mesmes, Tigrinya, Innemor	36	U+0259
+^ʕ	ʕ	ʕed, ʕasa	Soqotri, Geez, Gibbali, Tigre, Tigrinya, OgadenArabic	36	U+005e U+0295
+^y	y	yɨna, y t ˤb	Hebrew, Ugaritic, Soddo, OgadenArabic, Aramaic, Gibbali, Gafat, Soqotri, Chaha, Tigre, Mesqan, MoroccanArabic, Amharic, Geto, Geez, Harari, Zway, Mesmes	35	U+005e U+0079
+y$	y	sˤɛħay, may	Tigrinya, Tigre, Harari, Amharic, Geez, Ugaritic, Zway, Mesmes, Soqotri, Aramaic, Argobba, Mesqan, MoroccanArabic, Soddo, Mehri	34	U+0079 U+0024
+i:	iː	gɪ:di:r, cˤi:gɨr	Harari, OgadenArabic, Zway, Mesmes, Chaha, Mesqan, Tigrinya	33	U+0069 U+003a
+o:	oː	go:ga, mo:kˤ	Tigre, Soddo, Mesmes, Innemor, Harari, Argobba, OgadenArabic, Zway, Chaha, Geto	31	U+006f U+003a
+x	x	axɛ, wɛxe	Chaha, Geto, Tigrinya, Innemor, Harari, Harsusi, Mehri, Gibbali, OgadenArabic	31	U+0078
+^i	i	idha, ixa	Akkadian, Aramaic, Gafat, Hebrew, Geto, Innemor, Mesmes, Soqotri, Gibbali, Chaha, MoroccanArabic, Soddo, Ugaritic, Walani	31	U+005e U+0069
+^sˤ	sˤ	sˤɛħay, sˤɛllim	Tigrinya, Tigre, Geez, Akkadian, Harsusi, Hebrew, Gafat, Ugaritic, Aramaic, MoroccanArabic, Amharic, Geto	30	U+005e U+0073 U+02e4
+h	h	ħaaher, wuha	Soqotri, Argobba, Mesmes, Geez, Amharic, Soddo, Aramaic, Gibbali, Mesqan, Walani, Zway, Mehri	29	U+0068
+ee	ee	geef, ʔeereet	Soqotri, Mehri, Gibbali, Chaha, Geto	29	U+0065 U+0065
+kˤ$	kˤ	dɛrɛkˤ, ma:lɛkˤ	Soddo, Amharic, Harsusi, Mehri, Argobba, Mesqan, Geto, Walani, Zway, Soqotri, Chaha, MoroccanArabic, Geez, Harari	28	U+006b U+02e4 U+0024
+^e	e	emar, edjedje	Hebrew, Aramaic, Akkadian, Harsusi, Gibbali, Innemor, Soqotri, Chaha, Gafat, Walani, Zway	27	U+005e U+0065
+ii	ii	riiʃiit, liʃiin	Mehri, Soqotri, Gibbali	27	U+0069 U+0069
+ʕ	ʕ	rmuʕa, sʕartha	Aramaic, Tigre, Geez, Tigrinya, Gibbali, OgadenArabic, Soqotri, Hebrew	26	U+0295
+oo	oo	ħọoorem, nooka	Mehri, Soqotri, Gibbali	26	U+006f U+006f
+sˤ	sˤ	mɛsˤɨʔa, ħo:sˤa:	Tigrinya, Geez, Akkadian, Tigre, Hebrew, Gafat, Harsusi	25	U+0073 U+02e4
+^cˤ	cˤ	cˤomma, cˤɛrɛkˤa	Argobba, Tigre, Mesqan, Amharic, Soddo, Harari, Mesmes, Gafat, Geto, Tigrinya, Walani, Innemor, Harsusi, Zway	24	U+005e U+0063 U+02e4
+o$	o	kˤoto, ɤɔθo	Mesmes, Soqotri, Gibbali, Argobba, Mehri, Chaha, Tigre, Gafat, Amharic, Soddo, Geto, Harari, Walani, Innemor, Harsusi	23	U+006f U+0024
+ll	ll	sˤɛllim, bɛlla	Soddo, Tigre, Amharic, Zway, Gafat, Geez, Tigrinya, Argobba, Harari, Walani	22	U+006c U+006c
+u:	uː	ʔu:f, mu:kˤ	Zway, Harari, Mesmes, Argobba	22	U+0075 U+003a
+ə$	ə	gɨ:yə, nɛnə	Mesqan, Walani, Soddo, Mesmes	22	U+0259 U+0024
+ħ$	ħ	bɨzuħ, sɨbɨħ	Harari, Tigre, Tigrinya, Soqotri, Harsusi, Aramaic, Hebrew, Geez, OgadenArabic, Ugaritic, Mehri	22	U+0127 U+0024
+cˤ	cˤ	afɨncˤa, nɛcˤɛ	Chaha, Mesqan, Geto, Harari, Innemor, Zway, Tigre, Gafat, Amharic, Soddo, Tigrinya, Walani	21	U+0063 U+02e4
+^ɬ	ɬ	ɬabħ, ɬxewlol	Mehri, Soqotri, Harsusi, Gibbali, Hebrew	21	U+005e U+026c
+e:	eː	xˤʷe:t, se:t	Tigre, OgadenArabic, Zway, Harari, Argobba, Innemor, Chaha, Geto	21	U+0065 U+003a
+mm	mm	dɛmmɛna, cˤomma	Argobba, Amharic, Gafat, Soddo, Zway, Geez, Akkadian, Mesmes	20	U+006d U+006d
+^f	f	fam, faxreh	Soqotri, Gibbali, Mesqan, MoroccanArabic, Harsusi, Gafat, Soddo, Geto, OgadenArabic, Geez, Tigrinya, Walani, Mesmes	19	U+005e U+0066
+	<?>	sɔst, :tɔrɔ-	Argobba, Mesmes, Mesqan, Soddo, Harari, Amharic, Zway	18	U+008d
+bb	bb	libbu, lɨbbi	Aramaic, Soddo, Gafat, Geez, Tigrinya, Harsusi, Hebrew, Gibbali, MoroccanArabic, Amharic, Akkadian, Zway	18	U+0062 U+0062
+^ɛ	ɛ	ɛj, ɛsɨr	MoroccanArabic, Chaha, Innemor, Geto, Gafat	18	U+005e U+025b
+ʊ	ʊ	wʊssa, ɨʊaʊʷɛ	Harari, Mesmes, Gafat, Argobba, Mesqan, Soddo, Zway	18	U+028a
+ss	ss	wʊssa, massa	Soddo, Argobba, Tigre, Gafat, Tigrinya, Soqotri, Amharic, Walani, Mesmes	17	U+0073 U+0073
+^j	j	jɨwɛ, jira	OgadenArabic, Argobba, Amharic, Chaha, Gafat, Geto, Walani, Innemor, Zway, Mesmes	17	U+005e U+006a
+aa	aa	ʕaaɟe, ɬaaf	Soqotri, Mehri, Gibbali	17	U+0061 U+0061
+j	j	edjedje, ɨnji	OgadenArabic, Harari, Gafat, Argobba, Tigre, Mesqan, Walani, Zway	17	U+006a
+^x	x	xara, xoxɛβ	Geto, Chaha, Gibbali, Innemor, Harsusi, OgadenArabic, Geez, Mehri	16	U+005e U+0078
+k$	k	nɨk, bark	Ugaritic, Chaha, Mehri, Gibbali, Gafat, Geto, OgadenArabic, Geez, Walani, Harsusi, Zway	16	U+006b U+0024
+dd	dd	addis, gɛddɛlɛ	Soddo, Tigrinya, Amharic, Gafat, Tigre, Argobba, Geez, Harsusi, Zway	15	U+0064 U+0064
+ɛ:	ɛː	kˤɛ:ncˤe, sɛ:ccin	Zway, Soddo, Argobba, OgadenArabic, Harari, Innemor, Mesmes	14	U+025b U+003a
+yy	yy	kˤɛyyɨh, fəyyan	Argobba, Tigre, Tigrinya, Mesqan, Amharic, Soddo, OgadenArabic, Geez, Harsusi	13	U+0079 U+0079
+ʔ$	ʔ	dɛrɛʔ, l l ʔ	Ugaritic, Innemor, Hebrew, Aramaic, Tigre, Argobba, MoroccanArabic, Harari, Tigrinya	13	U+0294 U+0024
+p	p	erpetu, tˤarpa	Akkadian, Ugaritic, Aramaic	12	U+0070
+ʃ$	ʃ	riʃ, kerʃ	Hebrew, MoroccanArabic, Ugaritic, Gibbali	12	U+0283 U+0024
+a:$	aː	cɛna:, -cˤɔna:-	Tigre, Argobba, Mesmes, Innemor	12	U+0061 U+003a U+0024
+ɔ$	ɔ	haˤmɔ-, ɨyyɔ	Mesmes, Argobba, Mesqan, Soqotri, Gibbali	11	U+0254 U+0024
+^a:	aː	a:t, a:llɛfɛ-	Argobba, Soddo, Chaha, Gafat, Geto, Harari, Innemor, Zway, Mesmes	11	U+005e U+0061 U+003a
+c	c	ʂcfci, kacin	Gibbali, Mesqan, Harari, Argobba, Gafat, Walani, Mesmes	10	U+0063
+x$	x	nɛwwix, ʔuurex	Mehri, Gibbali, Geez, Chaha, Harsusi	10	U+0078 U+0024
+w$	w	anfw, amfw	Chaha, Geto, Innemor, Argobba, Amharic, Ugaritic, Harsusi	10	U+0077 U+0024
+rr	rr	arrat, gurrum	Argobba, Soddo, Tigre, MoroccanArabic, OgadenArabic, Tigrinya, Harari, Zway	10	U+0072 U+0072
+^c	c	cɨrɛ, cɛnɛ-m	Geto, Chaha, Mesqan, Innemor, Zway	10	U+005e U+0063
+^u	u	unf, urħu	Walani, Aramaic, Akkadian, Ugaritic, Zway	9	U+005e U+0075
+dh	dh	idha, gadhol	Aramaic, Hebrew, Soqotri	9	U+0064 U+0068
+kk	kk	nɛkkɛsɛ, nɛkkɛse	Aramaic, Argobba, Amharic, Gafat, Soddo, Geez, Tigrinya, Zway, Mesmes	9	U+006b U+006b
+^ð	ð	ðenu, ðonuub	Gibbali, Mehri, Harsusi, Soqotri	9	U+005e U+00f0
+ww	ww	sɛwwɛ, tˤʊwwɛ	Gafat, Tigrinya, Argobba, MoroccanArabic, Amharic, Geez, Harsusi	9	U+0077 U+0077
+tˤtˤ	tˤtˤ	mɛtˤtˤa, mɛ:tˤtˤa-m	Amharic, Argobba, Soddo, Gafat, Tigrinya, Zway	9	U+0074 U+02e4 U+0074 U+02e4
+th	tʰ	nathan, kˤlapthaʔ	Aramaic, Hebrew, Ugaritic	8	U+0074 U+0068
+zz	zz	bɨzzu, ɨzzuy	Argobba, MoroccanArabic, Gibbali, Soddo, Tigrinya, Zway	8	U+007a U+007a
+bh	bh	kabhda, ebhen	Aramaic, Hebrew, Soqotri	8	U+0062 U+0068
+g$	g	gayg, herɔg	Gibbali, Ugaritic, MoroccanArabic, Harsusi	8	U+0067 U+0024
+bh$	bh	zanabh, kokhabh	Hebrew, Aramaic, Mehri	8	U+0062 U+0068 U+0024
+^q	q	qumal, q tˤ r	OgadenArabic, Ugaritic	8	U+005e U+0071
+ʒ	ʒ	ʃɛʒra, ʒuʒa	MoroccanArabic, Hebrew	7	U+0292
+uu	uu	beruud, ɤaruub	Mehri, Gibbali	7	U+0075 U+0075
+cˤcˤ	cˤcˤ	kˤɛcˤcˤɨn, ʕɨcˤcˤat	Soddo, Tigre, Argobba, Amharic, Mesmes	7	U+0063 U+02e4 U+0063 U+02e4
+^p	p	pelu, puma	Akkadian, Aramaic, Ugaritic, Hebrew	7	U+005e U+0070
+^ɤ	ɤ	ɤay, ɤaruub	Gibbali, Mehri	7	U+005e U+0264
+sˤ$	sˤ	lɨhɨsˤ, esˤ	Harsusi, Hebrew, MoroccanArabic, Geez, Tigrinya	6	U+0073 U+02e4 U+0024
+tˤ$	tˤ	tetˤ, a:tˤ	Harsusi, Harari, Walani, Amharic	6	U+0074 U+02e4 U+0024
+ɬ	ɬ	koɬa, kˤaɬor	Harsusi, Hebrew, Gibbali, Mehri	6	U+026c
+ʕ$	ʕ	samaʕ, ʃiiʕ	OgadenArabic, Soqotri, Hebrew, Gibbali	6	U+0295 U+0024
+aˤ	aˤ	maˤdu, saˤʔari	Akkadian, Mesmes	6	U+0061 U+02e4
+ɟ	ɟ	ʕaaɟe, ʃiɟreet	OgadenArabic, Mehri, Soqotri	6	U+025f
+bb$	bb	lɨbb, tˤɨbb	Argobba, Geez, Amharic, OgadenArabic	6	U+0062 U+0062 U+0024
+^ɵ	ɵ	ɵari, ɵuʕba:n	OgadenArabic, Harsusi, Gibbali, Mehri	6	U+005e U+0275
+dh$	dh	kabhedh, yadh	Hebrew, Aramaic	6	U+0064 U+0068 U+0024
+q$	q	d q, ħarraq	OgadenArabic, MoroccanArabic, Ugaritic	6	U+0071 U+0024
+β	β	aβɛ-, anɛβɛt	Geto, Innemor, Chaha	6	U+03b2
+rr$	rr	sirr, gudʊrr	Harari, Walani, Zway, Soddo	6	U+0072 U+0072 U+0024
+kh$	kʰ	berekh, derekh	Hebrew, Aramaic	5	U+006b U+0068 U+0024
+kh	kʰ	kokhabh, ar:ikha	Aramaic, Hebrew	5	U+006b U+0068
+kˤʷ	kʷˤ	ankˤʷa, tˤɨkˤʷur	Mesqan, Amharic, Gafat	5	U+006b U+02e4 U+02b7
+^ʒ	ʒ	ʒder, ʒuʒa	MoroccanArabic	5	U+005e U+0292
+ʊ:	ʊː	hurtˤʊ:b, bʊ:ci	Zway, Harari, Mesmes	5	U+028a U+003a
+ɛˤ	ɛˤ	gɛˤdɛlɛ, kˤɛˤcˤi:n	Harari, Mesmes	5	U+025b U+02e4
+ɔɔ	ɔɔ	seɤizfɔɔt, nibbɔɔt	Gibbali	5	U+0254 U+0254
+ɤ	ɤ	seɤizfɔɔt, ʔɤru	Gibbali	5	U+0264
+j$	j	ɛj, wj	Chaha, Soddo, Geto, Walani, Innemor	5	U+006a U+0024
+β$	β	xoxɛβ, xʷɛxɛβ	Geto, Innemor, Chaha	5	U+03b2 U+0024
+ɨ$	ɨ	ɨnnɨ, zɛrʔɨ	Argobba, Geez, Innemor, Gafat	4	U+0268 U+0024
+:	<?>	kokɔ:b, ɔ:mf	Zway, Argobba	4	U+008d U+003a
+th$	tʰ	ath, nkhath	Aramaic, Hebrew, Mesqan	4	U+0074 U+0068 U+0024
+mʷ	mʷ	asˤmʷɛ, dɨmʷɛ	Gafat	4	U+006d U+02b7
+ʏ	ʏ	mo:dʏa, -mmaʔa-ʏe	Argobba, OgadenArabic, Zway, Mesmes	4	U+028f
+tt	tt	kɨlttɛ, atta	Geez, Zway, Gafat, Tigrinya	4	U+0074 U+0074
+ɨ:	ɨː	gɨ:yə, kˤəcˤɨ:n	Mesqan, Argobba, Mesmes	4	U+0268 U+003a
+uˤ	uˤ	kˤuˤwa:na, tɛfuˤka:ka	Mesmes, Harari	4	U+0075 U+02e4
+nˤ	nˤ	anˤnɔ:da, anˤfʊnna	Mesmes	4	U+006e U+02e4
+^o	o	oha:t, or	Hebrew, Harsusi, Zway	4	U+005e U+006f
+^i:	iː	i:n, i:ra	Mesqan, Zway, Soddo	4	U+005e U+0069 U+003a
+e:$	eː	ʔarwe:, tˤɨra-he:	Tigre, Argobba, Mesmes	4	U+0065 U+003a U+0024
+jj	jj	ɨjja, rɛjjɨm	Gafat, Amharic, Mesmes	4	U+006a U+006a
+b:	bː	rab:a, zib:atu	Aramaic, Hebrew, Akkadian	4	U+0062 U+003a
+ɔ:	ɔː	sɔ:sti, wɔ:nkˤa	Mesmes, Argobba	4	U+0254 U+003a
+q	q	raqaba, weɾqa	OgadenArabic, MoroccanArabic, Mehri	4	U+0071
+t:	tː	ĭñt:a, at:a	Akkadian, Aramaic, Hebrew	4	U+0074 U+003a
+éé	éé	sebdéét, ʃubdéét	Mehri, Soqotri, Gibbali	4	U+00e9 U+00e9
+n:	nː	kin:am, ten:ana	Aramaic, Hebrew, Akkadian	4	U+006e U+003a
+nn$	nn	sɨnn, mɨnn	Argobba, OgadenArabic, Soddo	4	U+006e U+006e U+0024
+^ɔ	ɔ	ɔ:mf, ɔtˤtɛmi	Zway, Mesmes	3	U+005e U+0254
+ǀ	ǀ	kˤaɬiǀr, rmiǀd	Mehri, Soqotri	3	U+01c0
+ɪ$	ɪ	lɨħsˤɪ, kˤʊtˤɪ	Hebrew, Harari, Tigrinya	3	U+026a U+0024
+^ʂ	ʂ	ʂeppra, ʂr	Aramaic, Gibbali, Ugaritic	3	U+005e U+0282
+ɪ:	ɪː	kˤɪ:na, gɪ:di:r	Argobba, Zway, Mesmes	3	U+026a U+003a
+fʷ	fʷ	zafʷɛ, a:fʷɛ	Gafat	3	U+0066 U+02b7
+pp	pp	sˤippor, appau	Hebrew, Aramaic, Akkadian	3	U+0070 U+0070
+θ	θ	nθtoowek, ɤɔθo	Gibbali, Harsusi, Mehri	3	U+03b8
+kʸ	kʲ	mɛkʸɛrɛ-m, mɛkʸɛrɛ	Geto, Innemor, Chaha	3	U+006b U+02b8
+ph$	pʰ	aph, saraph	Hebrew	3	U+0070 U+0068 U+0024
+p$	p	w p, ap	Ugaritic	3	U+0070 U+0024
+cc	cc	kˤɛcci:n, sɛ:ccin	Zway, Argobba	3	U+0063 U+0063
+ð	ð	baðr, ʔiðɛ	Gibbali, Harsusi, Mehri	3	U+00f0
+ɵ	ɵ	beɵeh, ħeyɵen	Harsusi	3	U+0275
+ɟ$	ɟ	ʕaaɟ, be:ɟ	OgadenArabic, Soqotri	3	U+025f U+0024
+^æ	æ	æn, æma	Chaha, Geto	3	U+005e U+00e6
+gʷ	gʷ	sˤɛgʷri, gʷagʷɛ	Gafat, Tigrinya	3	U+0067 U+02b7
+gh	gh	reghel, ʃeghme	Aramaic, Hebrew	3	U+0067 U+0068
+^xʸ	xʲ	xʸɨn	Geto, Innemor, Chaha	3	U+005e U+0078 U+02b8
+^kˤʷ	kʷˤ	kˤʷosˤɨl, kˤʷomɛ	Geez, Mesqan, Tigrinya	3	U+005e U+006b U+02e4 U+02b7
+gg	gg	a:rrɛggaza, gɛggɛra	Argobba, Soddo	3	U+0067 U+0067
+^θ	θ	θeret, θroh	Gibbali, Harsusi, Mehri	3	U+005e U+03b8
+ll$	ll	koll, kull	OgadenArabic, MoroccanArabic	2	U+006c U+006c U+0024
+ph	pʰ	kepha, epher	Hebrew, Aramaic	2	U+0070 U+0068
+	<?>	kˤaɬiǀr, rmiǀd	Mehri	2	U+008e
+k:	kː	kak:abu, uk:ama	Akkadian, Aramaic	2	U+006b U+003a
+^ɵˤ	ɵˤ	ɵˤore, ɵˤn b	Harsusi, Ugaritic	2	U+005e U+0275 U+02e4
+ɬ$	ɬ	aɬayɬ, iɬ	Hebrew, Harsusi	2	U+026c U+0024
+a:ˤ	aˤː	ma:ˤgɛdɛ, kˤa:ˤnɛnɛ	Harari	2	U+0061 U+003a U+02e4
+ɾ	ɾ	weɾqa, hɾeq	MoroccanArabic	2	U+027e
+r:	rː	kˤar:ira, ar:ikha	Aramaic	2	U+0072 U+003a
+^mʷ	mʷ	mʷɔtə, mʷakˤ	Mesqan	2	U+005e U+006d U+02b7
+$	<?>	sɛˤcɔ-, :tɔrɔ-	Mesmes	2	U+008d U+0024
+:$	<?>	hɔˤrɔ:-, baʔˤnɔ:-	Mesmes	2	U+008d U+003a U+0024
+ee$	ee	tee, hee	Soqotri, Mehri	2	U+0065 U+0065 U+0024
+ĕ	ĕ	trĕỹn, bĕỹsˤah	Hebrew, Aramaic	2	U+0115
+ỹ	ỹ	trĕỹn, bĕỹsˤah	Hebrew, Aramaic	2	U+1ef9
+^e:	eː	e:taʔ, e:n	Argobba	2	U+005e U+0065 U+003a
+æ$	æ	mazæ, manzæ	Innemor, Chaha	2	U+00e6 U+0024
+gh$	gh	dagh, haragh	Hebrew	2	U+0067 U+0068 U+0024
+^ə	ə	əgɨr, əga	Mesqan	2	U+005e U+0259
+ˤ	<?>	hɔˤrɔ:-, sɔˤʔma-	Mesmes	2	U+008d U+02e4
+xˤ$	xˤ	mɨwuxˤ, sˤɨbbuxˤ	Tigrinya	2	U+0078 U+02e4 U+0024
+oˤ	oˤ	koˤʔora, moˤʔo-	Mesmes	2	U+006f U+02e4
+dd$	dd	idd, ʔədd	Walani, MoroccanArabic	2	U+0064 U+0064 U+0024
+_ˤ$	_ˤ	y d ˤ, ʃ m ˤ	Ugaritic	2	U+005f U+02e4 U+0024
+yˤ	yˤ	hiyˤya, wɔyˤyamo	Mesmes	2	U+0079 U+02e4
+ɤ$	ɤ	leteɤ, letooɤ	Gibbali, Mehri	2	U+0264 U+0024
+ɪ	ɪ	kˤɪtˤɛr, m ɪ d	Ugaritic, Chaha	2	U+026a
+é	é	ɤég, ʃébdeh	Soqotri, Gibbali	2	U+00e9
+^ɟ	ɟ	ɟibeel, ɟaʕi:f	OgadenArabic, Mehri	2	U+005e U+025f
+ɔ:$	ɔː	-benɔ:-, -ha:ʸyɔ:-	Mesmes	2	U+0254 U+003a U+0024
+z:	zː	izuz:u, haz:eh	Akkadian, Hebrew	2	U+007a U+003a
+ɔʷ	ɔʷ	sɔʷst	Mesqan	2	U+0254 U+02b7
+ñ	ɲ	ăñt, ĭñt:a	Aramaic	2	U+00f1
+ẽ	ẽ	meθenẽt, lẽʃen	Harsusi	2	U+1ebd
+ʊˤ	ʊˤ	ʔʊˤha, wʊˤʔɛ:ti	Mesmes	2	U+028a U+02e4
+^xˤʷ	xʷˤ	xˤʷe:t	Geto, Chaha	2	U+005e U+0078 U+02e4 U+02b7
+c$	c	ʔaxaxa:c, ʔinna:c	Harari	2	U+0063 U+0024
+^kʷ	kʷ	kʷɨllu	Geez	1	U+005e U+006b U+02b7
+I	<?>	ullImka	Walani	1	U+0049
+lh	lh	yɨlho	Gafat	1	U+006c U+0068
+ʟ	ʟ	riʟd	Gibbali	1	U+029f
+p:	pː	kˤelip:ah	Hebrew	1	U+0070 U+003a
+yy$	yy	ʕabiyy	Geez	1	U+0079 U+0079 U+0024
+(w)ɔf	<???>	(w)ɔf	Argobba	1	U+0028 U+0077 U+0029 U+0254 U+008d U+0066
+^ɔ:	ɔː	ɔ:nfa	Mesmes	1	U+005e U+0254 U+003a
+sˤsˤ	sˤsˤ	isˤsˤuru	Akkadian	1	U+0073 U+02e4 U+0073 U+02e4
+ɛɛ	ɛɛ	ʕesferɛɛt	Gibbali	1	U+025b U+025b
+ħħ	ħħ	sˤeħħer	Harsusi	1	U+0127 U+0127
+^θˤ	θˤ	θˤaʕab	Soqotri	1	U+005e U+03b8 U+02e4
+d:$	dː	ɛed:	MoroccanArabic	1	U+0064 U+003a U+0024
+ɟɟ$	ɟɟ	ʕaɟɟ	OgadenArabic	1	U+025f U+025f U+0024
+tˤħɨkˤ(ʷ)ur	<???>	tˤħɨkˤ(ʷ)ur	Argobba	1	U+0074 U+02e4 U+0127 U+0268 U+006b U+02e4 U+0028 U+02b7 U+0029 U+0075 U+0072
+ẖ	<?>	kẖel	MoroccanArabic	1	U+1e96
+^dʸ	dʲ	dʸɛm	Mesqan	1	U+005e U+0064 U+02b8
+m:$	mː	dem:	MoroccanArabic	1	U+006d U+003a U+0024
+z$	z	ʔazayz	Mehri	1	U+007a U+0024
+uʷ	uʷ	tˤuʷiye	Mesmes	1	U+0075 U+02b7
+(tɛ-)kˤatˤtˤlɛ	<???>	(tɛ-)kˤatˤtˤlɛ	Gafat	1	U+0028 U+0074 U+025b U+002d U+0029 U+006b U+02e4 U+0061 U+0074 U+02e4 U+0074 U+02e4 U+006c U+025b
+v	v	dəvɛnə	Walani	1	U+0076
+l:	lː	arpel:a	Aramaic	1	U+006c U+003a
+^sh	sh	shaba	MoroccanArabic	1	U+005e U+0073 U+0068
+^mm	mm	-mmaʔa-ʏe	Mesmes	1	U+005e U+006d U+006d
+wˤ$	wˤ	bwˤ	Ugaritic	1	U+0077 U+02e4 U+0024
+^ˤt	ˤt	ˤtw	Ugaritic	1	U+005e U+02e4 U+0074
+sɛcˤɛ(y)	<???>	sɛcˤɛ(y)	Mesqan	1	U+0073 U+025b U+0063 U+02e4 U+025b U+0028 U+0079 U+0029
+xˤ	xˤ	nɛxˤasˤ	Tigrinya	1	U+0078 U+02e4
+əˤ	əˤ	dəˤro-e	Mesmes	1	U+0259 U+02e4
+^ʊ	ʊ	ʊnˤzu:ra	Mesmes	1	U+005e U+028a
+ðh	ðh	ʔiðhen	Soqotri	1	U+00f0 U+0068
+ʔˤ	ʔˤ	baʔˤnɔ:-	Mesmes	1	U+0294 U+02e4
+^th	tʰ	the	Gibbali	1	U+005e U+0074 U+0068
+ʔɨnkˤo(n)kˤɨħa	<???>	ʔɨnkˤo(n)kˤɨħa	Geez	1	U+0294 U+0268 U+006e U+006b U+02e4 U+006f U+0028 U+006e U+0029 U+006b U+02e4 U+0268 U+0127 U+0061
+^eʸ	eʲ	eʸn	Mesqan	1	U+005e U+0065 U+02b8
+^ɨ:	ɨː	ɨ:n	Mesmes	1	U+005e U+0268 U+003a
+^ˤn$	ˤn	ˤn	Ugaritic	1	U+005e U+02e4 U+006e U+0024
+i:ˤ	iˤː	ʔi:ˤsat	Harari	1	U+0069 U+003a U+02e4
+^ɨˤ	ɨˤ	ɨˤsa:de	Mesmes	1	U+005e U+0268 U+02e4
+^tʸ	tʲ	tʸulʸu:m	Zway	1	U+005e U+0074 U+02b8
+lʸ	lʲ	tʸulʸu:m	Zway	1	U+006c U+02b8
+gˤ	gˤ	ɨgˤgɨrɛ	Mesmes	1	U+0067 U+02e4
+^pˤ	pˤ	pˤ n	Ugaritic	1	U+005e U+0070 U+02e4
+ff$	ff	xuff	OgadenArabic	1	U+0066 U+0066 U+0024
+nʸ	nʲ	a:bɛ:nʸa	Zway	1	U+006e U+02b8
+ăh	ăh	yăhbh	Aramaic	1	U+0103 U+0068
+(a)horɛ	<???>	(a)horɛ	Gafat	1	U+0028 U+0061 U+0029 U+0068 U+006f U+0072 U+025b
+zh	zh	kˤazha	Soqotri	1	U+007a U+0068
+ff	ff	ɬeffiit	Mehri	1	U+0066 U+0066
+jj$	jj	ɨjj	Amharic	1	U+006a U+006a U+0024
+g(ʷ)unɛn	<???>	g(ʷ)unɛn	Mesqan	1	U+0067 U+0028 U+02b7 U+0029 U+0075 U+006e U+025b U+006e
+ŏ	ŏ	rŏʔʃ	Hebrew	1	U+014f
+b:$	bː	lɛb:	Hebrew	1	U+0062 U+003a U+0024
+^k$	k	k	Harsusi	1	U+005e U+006b U+0024
+^:t	ːt	:tɔrɔ-	Mesmes	1	U+005e U+003a U+0074
+o:$	oː	haˤro:-	Mesmes	1	U+006f U+003a U+0024
+^ee	ee	eerk	Gibbali	1	U+005e U+0065 U+0065
+dˤ	dˤ	gʊdˤdɔr-	Mesmes	1	U+0064 U+02e4
+ii$	ii	rii	Gibbali	1	U+0069 U+0069 U+0024
+kˤɨm(m)al	<???>	kˤɨm(m)al	Argobba	1	U+006b U+02e4 U+0268 U+006d U+0028 U+006d U+0029 U+0061 U+006c
+u:$	uː	su:	Argobba	1	U+0075 U+003a U+0024
+wʸ	wʲ	səwʸe	Mesmes	1	U+0077 U+02b8
+bɨzzɨ(n)	<???>	bɨzzɨ(n)	Zway	1	U+0062 U+0268 U+007a U+007a U+0268 U+0028 U+006e U+0029
+ɔˤ	ɔˤ	bɔˤsɔra	Mesmes	1	U+0254 U+02e4
+ĕh$	ĕh	tĕh	Gibbali	1	U+0115 U+0068 U+0024
+éh$	éh	téh	Soqotri	1	U+00e9 U+0068 U+0024
+^p$	p	p	Ugaritic	1	U+005e U+0070 U+0024
+aʷ	aʷ	haʷɔnsɔ:de	Mesmes	1	U+0061 U+02b7
+affɨnc(c)a	<???>	affɨnc(c)a	Argobba	1	U+0061 U+0066 U+0066 U+0268 U+006e U+0063 U+0028 U+0063 U+0029 U+0061
+nɨ:f(ɨ)t	<???>	nɨ:f(ɨ)t	Zway	1	U+006e U+0268 U+003a U+0066 U+0028 U+0268 U+0029 U+0074
+B$	<?>	zɨraB	Chaha	1	U+0042 U+0024
+ema(ʷ)	<???>	ema(ʷ)	Mesqan	1	U+0065 U+006d U+0061 U+0028 U+02b7 U+0029
+ọ	ọ	ħọoorem	Mehri	1	U+1ecd
+ʔʔ$	ʔʔ	ʔarokˤ ʔʔ	Mehri	1	U+0294 U+0294 U+0024
+ħˤ	ħˤ	siħˤsera	Harari	1	U+0127 U+02e4
+iri:n(o)	<???>	iri:n(o)	Zway	1	U+0069 U+0072 U+0069 U+003a U+006e U+0028 U+006f U+0029
+a:ʸ	aːʲ	-ha:ʸyɔ:-	Mesmes	1	U+0061 U+003a U+02b8
+^ḥ	ḥ	ḥ d y	Ugaritic	1	U+005e U+1e25
+zur(ɪ)ye	<???>	zur(ɪ)ye	Mesmes	1	U+007a U+0075 U+0072 U+0028 U+026a U+0029 U+0079 U+0065
+rˤ$	rˤ	d rˤ	Ugaritic	1	U+0072 U+02e4 U+0024
+_ˤ	_ˤ	y t ˤb	Ugaritic	1	U+005f U+02e4
+^gʷ	gʷ	gʷagʷɛ	Gafat	1	U+005e U+0067 U+02b7
+kˤkˤ	kˤkˤ	dɛkˤkˤɛsɛ	Tigrinya	1	U+006b U+02e4 U+006b U+02e4
+(ta-)gɛddɛlɛ	<???>	(ta-)gɛddɛlɛ	Gafat	1	U+0028 U+0074 U+0061 U+002d U+0029 U+0067 U+025b U+0064 U+0064 U+025b U+006c U+025b
+-wɔdɔ(ʔɔ)-	<???>	-wɔdɔ(ʔɔ)-	Mesmes	1	U+002d U+0077 U+0254 U+0064 U+0254 U+0028 U+0294 U+0254 U+0029 U+002d
+nɨʔɨsto(y)	<???>	nɨʔɨsto(y)	Tigrinya	1	U+006e U+0268 U+0294 U+0268 U+0073 U+0074 U+006f U+0028 U+0079 U+0029
+iˤ	iˤ	tˤiˤkˤɛso	Harari	1	U+0069 U+02e4
+i:ʸ	iːʲ	tˤi:ʸt	Zway	1	U+0069 U+003a U+02b8
+^ʊ:	ʊː	ʊ:nse	Mesmes	1	U+005e U+028a U+003a
+ė	<?>	nedėx	Harsusi	1	U+0117
+xx	xx	doxxan	MoroccanArabic	1	U+0078 U+0078
+ʊʷ	ʊʷ	ɨʊaʊʷɛ	Gafat	1	U+028a U+02b7
+^xʷ	xʷ	xʷɛxɛβ	Innemor	1	U+005e U+0078 U+02b7
+ĩ	ĩ	kebkĩb	Harsusi	1	U+0129
+^oᵘ	oᵘ	oᵘna	Mesmes	1	U+005e U+006f U+1d58
+ɛʸ	ɛʲ	cˤɛʸt	Mesqan	1	U+025b U+02b8
+ʃ:$	ʃː	ʃemʃ:	Aramaic	1	U+0283 U+003a U+0024
+çˤ	çˤ	kˤɛcˤçˤɨn	Zway	1	U+00e7 U+02e4
+^rh	rh	rhif	MoroccanArabic	1	U+005e U+0072 U+0068
+i:$	iː	yi:	Zway	1	U+0069 U+003a U+0024
+(ɨ)zi:(h)	<???>	(ɨ)zi:(h)	Mesqan	1	U+0028 U+0268 U+0029 U+007a U+0069 U+003a U+0028 U+0068 U+0029
+ʊ:$	ʊː	wʊ:-	Mesmes	1	U+028a U+003a U+0024
+^sʷ	sʷ	sʷostɛ	Gafat	1	U+005e U+0073 U+02b7
+ant(ɛ)	<???>	ant(ɛ)	Gafat	1	U+0061 U+006e U+0074 U+0028 U+025b U+0029
+^ă	ă	ăñt	Aramaic	1	U+005e U+0103
+nh	nh	yaanhen	Soqotri	1	U+006e U+0068
+ʃʃ	ʃʃ	leʃʃin	Soqotri	1	U+0283 U+0283
+ʃ ñ (pl.)	<???>	ʃ ñ (pl.)	Ugaritic	1	U+0283 U+0020 U+00f1 U+0020 U+0028 U+0070 U+006c U+002e U+0029
+n:$	nː	sin:	Akkadian	1	U+006e U+003a U+0024
+^sˤ$	sˤ	sˤ	Ugaritic	1	U+005e U+0073 U+02e4 U+0024
+rh	rh	ʃerham	Soqotri	1	U+0072 U+0068
+tt$	tt	hulɛtt	Amharic	1	U+0074 U+0074 U+0024
+^hʷ	hʷ	hʷey	Mesqan	1	U+005e U+0068 U+02b7
+m:	mː	ħam:ima	Aramaic	1	U+006d U+003a
+^ɱ	ɱ	ɱay	Geez	1	U+005e U+0271
+^	<?>	ɔhuwwa:	Argobba	1	U+005e U+008d
+y:	yː	may:a	Aramaic	1	U+0079 U+003a
+^ˤe	ˤe	ˤeti	Harsusi	1	U+005e U+02e4 U+0065
+(ɨ)rtˤɨb	<???>	(ɨ)rtˤɨb	Amharic	1	U+0028 U+0268 U+0029 U+0072 U+0074 U+02e4 U+0268 U+0062
+^ɪ:	ɪː	ɪ:ya	Innemor	1	U+005e U+026a U+003a
+rˤ	rˤ	irˤramo	Mesmes	1	U+0072 U+02e4
+mʊn(n)-e	<???>	mʊn(n)-e	Mesmes	1	U+006d U+028a U+006e U+0028 U+006e U+0029 U+002d U+0065
+cˤcˤ$	cˤcˤ	nɛcˤcˤ	Amharic	1	U+0063 U+02e4 U+0063 U+02e4 U+0024
+hh$	hh	zahh	Argobba	1	U+0068 U+0068 U+0024
+o:ˤ	oˤː	go:ˤmara	Zway	1	U+006f U+003a U+02e4
+mɨ(n)	<???>	mɨ(n)	Mesqan	1	U+006d U+0268 U+0028 U+006e U+0029
+eʸ	eʲ	sɛbeʸti	Tigrinya	1	U+0065 U+02b8
+^sʸ	sʲ	sʸet	Amharic	1	U+005e U+0073 U+02b8
+ɛ:(n)sta	<???>	ɛ:(n)sta	Mesmes	1	U+025b U+003a U+0028 U+006e U+0029 U+0073 U+0074 U+0061
+^ĭ	ĭ	ĭñt:a	Aramaic	1	U+005e U+012d
+θ$	θ	teeθ	Gibbali	1	U+03b8 U+0024
+^aˤ	aˤ	aˤhu:we	Mesmes	1	U+005e U+0061 U+02e4
