@@ -9,27 +9,45 @@ from pylexibank.util import progressbar
 from clldutils.misc import slug
 
 REPLACEMENTS = [
+    ("u'", "u"),
+    ("a'", "a"),
+    ("ɔ'", "ɔ"),
     # ("$", ""),
     # ("^", ""),
     ("7", "ʔ"), # TODO: Verify per language
     ("?", "ʔ"),
     ("9", "ʕ"),
+    ("q", "k'"),  # ق
     ("'", "ˤ"),
     # ("o'", "o"), # TODO: Verify Mesmes
     # ("ʊ'", "ʊ"), # TODO: Verify Mesmes
     # # ("k'", "kˣ̓"), # https://en.wikipedia.org/wiki/Soddo_language and matching grapheme for "voiceless velar ejective affricate consonant" under CLTS
-    # ("k'", "qˤ"), # ق
     # ("k''", "qˤ"), # ق
     # # ("t'", "tʼ") # https://en.wikipedia.org/wiki/Soddo_language and matching grapheme for "voiceless alveolar ejective stop consonant" under CLTS
     # ("t'", "tˤ"), # ط
     # ("ɵ'", "ðˤ"), # TODO: Verify
-    ("ƭ", "t"), # ط
     # ("s'", "sˤ"), # ص
     # ("c'", "t͡ʃˤ"), # چ
+    ("ɤ", "ɣ"),
+    ("ġ", "ɣ"), # غ
+    # Remove stress marks
+    ("έ", "ɛ"),
+    ("έ", "ɛ"),
+    ("á", "a"),
+    ("é", "e"),
+    ("ú", "u"),
+    ("ĩ", "i"),
+    ("ź", "ɮ"),
+    ("š", "ʃ"),
+    ("x", "χ"),
+    ("j", "ʒ"),
+    ("y", "j"),
+    ("ň", "ɲ"),
     # ("x'", "xʼ"), # https://en.wikipedia.org/wiki/Tigrinya_language and matching grapheme for "voiceless velar ejective fricative consonant" under CLTS
     # ("i'", "ɪ"), # in free variance with i, is a vowel between front and center, high open; its allophone is ǔ after w. (Leslau 1963).
     # ("ɛ'", "æ"), # betweem center and front, low close; is in free variant with a (central, low) in any position except initial and final; its allophone is å (central, low, rounded) after a labial (Leslau 1963).
     # ("a:'", "a:"), # instances correspond with a long vowel
+
     ("ẹ", "e"),
     ("ṟ", "ɾ"), # Maroccan Arabic TODO: verify which one of ɾ, ɾˤ, rˤ
     ("", ""),
