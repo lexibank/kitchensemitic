@@ -101,7 +101,7 @@ class Dataset(BaseDataset):
     language_class = CustomLanguage
 
     form_spec = FormSpec(
-        brackets={}, separators="/,", missing_data=("---",), strip_inside_brackets=False,
+        brackets={"(": ")", "[": "]"}, separators="/,", missing_data=("---",), strip_inside_brackets=True,
         replacements=REPLACEMENTS
     )
 
