@@ -1,3 +1,5 @@
+## Notes on the Comparison with Original Sources (B. Sapirstein)
+
 Unable to identify original sources for Mɛhri, Jibbali, and Harsusi.
 
 Kitchen et al say:
@@ -10,3 +12,5 @@ Kitchen et al say:
 > lexicons (Leslau 1938; Gelb et al. 1956; Sobelman & Harrel 1963; Rabin 1975).
 
 I can't see these three in Leslau, Gelb, Sobelman & Harrel or Rabin or Bender.
+
+

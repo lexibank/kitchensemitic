@@ -19,6 +19,8 @@ Conceptlists in Concepticon:
 - [Kitchen-2009-95](https://concepticon.clld.org/contributions/Kitchen-2009-95)
 ## Notes
 
+## Notes on the Comparison with Original Sources (B. Sapirstein)
+
 Unable to identify original sources for Mɛhri, Jibbali, and Harsusi.
 
 Kitchen et al say:
@@ -31,6 +33,9 @@ Kitchen et al say:
 > lexicons (Leslau 1938; Gelb et al. 1956; Sobelman & Harrel 1963; Rabin 1975).
 
 I can't see these three in Leslau, Gelb, Sobelman & Harrel or Rabin or Bender.
+
+
+
 
 
 ## Statistics
@@ -56,9 +61,16 @@ I can't see these three in Leslau, Gelb, Sobelman & Harrel or Rabin or Bender.
 
 # Contributors
 
-Name               | GitHub user     | Description                          | Role
----                | ---             | ---                                  | ---
-Simon J. Greenhill | @SimonGreenhill | patron                               | Author
+Name               | GitHub user | Description | Role
+---                | ---         | --- | --- 
+Ben Sapirstein | | orthography profile, integration of original sources | Editor
+Johann-Mattis List | @LinguList  | maintainer | Editor 
+Simon Greenhill | | maintainer | Editor
+Andrew Kitchen | | data collection | Author
+Christopher Ehret | | data collection | Author
+Shiferaw Assefa | | data collection | Author
+Connie J. Mulligan | | data collection | Author
+
 
 
 

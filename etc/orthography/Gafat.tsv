@@ -1,7 +1,7 @@
 Grapheme	IPA	Frequency
 ɛ	ɛ	98
-^	NULL	86
-$	NULL	86
+^	?	86
+$	?	86
 a	a	34
 n	n	30
 ɨ	ɨ	26
@@ -37,6 +37,6 @@ f	f	1
 kˤʷ	kʷˤ	1
 a:	aː	1
 +	+	1
-ʊʷ	ʊu̯	1
+ʊʷ	ʊʷ	1
 c	c	1
 sʷ	sʷ	1
