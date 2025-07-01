@@ -7,10 +7,32 @@
     ],
     "creators": [
         {
-            "name": "Simon J. Greenhill"
+            "name": "Andrew Kitchen"
+        },
+        {
+            "name": "Christopher Ehret"
+        },
+        {
+            "name": "Shiferaw Assefa"
+        },
+        {
+            "name": "Connie J. Mulligan"
         }
     ],
-    "contributors": [],
+    "contributors": [
+        {
+            "name": "Ben Sapirstein",
+            "type": "Editor"
+        },
+        {
+            "name": "Johann-Mattis List",
+            "type": "Editor"
+        },
+        {
+            "name": "Simon Greenhill",
+            "type": "Editor"
+        }
+    ],
     "communities": [
         {
             "identifier": "lexibank"
