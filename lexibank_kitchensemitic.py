@@ -96,6 +96,16 @@ class Dataset(BaseDataset):
             lookup_factory="Name"
         )
 
+        args.writer.add_concept(ID="flyverb", Name="Fly (v.)",
+                                Concepticon_ID="1441", Concepticon_Gloss="FLY (MOVE THROUGH AIR)")
+
+        concepts["fly (verb)"] = "flyverb"
+
+        args.writer.add_concept(ID="claw", Name="Claw",
+                                Concepticon_ID="72", Concepticon_Gloss="CLAW")
+
+        concepts["Claw"] = "claw"
+
         args.writer.add_languages()
 
         languages = {}  # We use the language map for an easier sources lookup.
@@ -143,12 +153,17 @@ class Dataset(BaseDataset):
                 if len(forms) > len(cogs):
                     cogs.extend("-" for _ in range(len(forms) - len(cogs)))
 
+                if lang in ["Hebrew", "Ugaritic", "Aramaic", "Akkadian"] and gloss == "Fly (n.)":
+                    concept = concepts["fly (verb)"]
+                else:
+                    concept = concepts[gloss]
+
                 for form, cog in zip(forms, cogs):
-                    cogid = "%s-%s" % (concepts[gloss], cog)
+                    cogid = "%s-%s" % (concept, cog)
 
                     lex = args.writer.add_form(
                         Language_ID=lid,
-                        Parameter_ID=concepts[gloss],
+                        Parameter_ID=concept,
                         Value=lexeme,
                         Source=src,
                         Form=form,
