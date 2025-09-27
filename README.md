@@ -47,8 +47,8 @@ I can't see these three in Leslau, Gelb, Sobelman & Harrel or Rabin or Bender.
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
-![BIPA: 87%](https://img.shields.io/badge/BIPA-87%25-yellowgreen.svg "BIPA: 87%")
-![CLTS SoundClass: 87%](https://img.shields.io/badge/CLTS%20SoundClass-87%25-yellowgreen.svg "CLTS SoundClass: 87%")
+![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
+![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
 - **Varieties:** 25 (linked to 25 different Glottocodes)
 - **Concepts:** 97 (linked to 97 different Concepticon concept sets)
@@ -59,8 +59,8 @@ I can't see these three in Leslau, Gelb, Sobelman & Harrel or Rabin or Bender.
 - **Cognate Diversity:** 0.25
 - **Invalid lexemes:** 0
 - **Tokens:** 10,911
-- **Segments:** 119 (16 BIPA errors, 16 CLTS sound class errors, 103 CLTS modified)
-- **Inventory size (avg):** 38.08
+- **Segments:** 103 (0 BIPA errors, 0 CLTS sound class errors, 103 CLTS modified)
+- **Inventory size (avg):** 37.20
 
 # Contributors
 

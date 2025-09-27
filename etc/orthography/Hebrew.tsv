@@ -1,6 +1,6 @@
 Grapheme	IPA	Frequency
-^	?	91
-$	?	91
+^	NULL	91
+$	NULL	91
 a:	aː	50
 a	a	37
 e	e	30
@@ -28,6 +28,7 @@ z	z	6
 d	d	5
 ɸ	ɸ	4
 tˤ	tˤ	4
+ɬ	ɬ	4
 ɛ	ɛ	4
 i:	iː	4
 o	o	3
@@ -35,8 +36,6 @@ kˤ	kˤ	3
 θ	θ	3
 ɣ	ɣ	3
 g	g	2
-ł	ł	2
-ɬ	ɬ	2
 w	w	2
 t	t	2
 u:	uː	1
