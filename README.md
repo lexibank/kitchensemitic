@@ -59,7 +59,7 @@ I can't see these three in Leslau, Gelb, Sobelman & Harrel or Rabin or Bender.
 - **Cognate Diversity:** 0.25
 - **Invalid lexemes:** 0
 - **Tokens:** 10,911
-- **Segments:** 103 (0 BIPA errors, 0 CLTS sound class errors, 103 CLTS modified)
+- **Segments:** 110 (0 BIPA errors, 0 CLTS sound class errors, 110 CLTS modified)
 - **Inventory size (avg):** 37.20
 
 # Contributors
