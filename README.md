@@ -1,5 +1,7 @@
 # CLDF dataset derived from Kitchen et al.'s "Bayesian phylogenetic analysis of Semitic languages" from 2009
 
+[![CLDF validation](https://github.com/lexibank/kitchensemitic/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/kitchensemitic/actions?query=workflow%3ACLDF-validation)
+
 ## How to cite
 
 If you use these data please cite
@@ -41,6 +43,7 @@ I can't see these three in Leslau, Gelb, Sobelman & Harrel or Rabin or Bender.
 ## Statistics
 
 
+[![CLDF validation](https://github.com/lexibank/kitchensemitic/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/kitchensemitic/actions?query=workflow%3ACLDF-validation)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
@@ -48,16 +51,16 @@ I can't see these three in Leslau, Gelb, Sobelman & Harrel or Rabin or Bender.
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
 - **Varieties:** 25 (linked to 25 different Glottocodes)
-- **Concepts:** 95 (linked to 95 different Concepticon concept sets)
-- **Lexemes:** 2,468
-- **Sources:** 5
-- **Synonymy:** 1.07
-- **Cognacy:** 2,125 cognates in 671 cognate sets (339 singletons)
-- **Cognate Diversity:** 0.24
+- **Concepts:** 97 (linked to 97 different Concepticon concept sets)
+- **Lexemes:** 2,396
+- **Sources:** 8
+- **Synonymy:** 1.04
+- **Cognacy:** 2,150 cognates in 665 cognate sets (329 singletons)
+- **Cognate Diversity:** 0.25
 - **Invalid lexemes:** 0
-- **Tokens:** 11,173
-- **Segments:** 130 (0 BIPA errors, 0 CLTS sound class errors, 130 CLTS modified)
-- **Inventory size (avg):** 39.04
+- **Tokens:** 10,911
+- **Segments:** 110 (0 BIPA errors, 0 CLTS sound class errors, 110 CLTS modified)
+- **Inventory size (avg):** 37.20
 
 # Contributors
 

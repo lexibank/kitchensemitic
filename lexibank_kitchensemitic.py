@@ -12,22 +12,11 @@ REPLACEMENTS = [
     ("u'", "u"),
     ("a'", "a"),
     ("ɔ'", "ɔ"),
-    # ("$", ""),
-    # ("^", ""),
-    ("7", "ʔ"), # TODO: Verify per language
+    ("7", "ʔ"),
     ("?", "ʔ"),
     ("9", "ʕ"),
     ("q", "k'"),  # ق
     ("'", "ˤ"),
-    # ("o'", "o"), # TODO: Verify Mesmes
-    # ("ʊ'", "ʊ"), # TODO: Verify Mesmes
-    # # ("k'", "kˣ̓"), # https://en.wikipedia.org/wiki/Soddo_language and matching grapheme for "voiceless velar ejective affricate consonant" under CLTS
-    # ("k''", "qˤ"), # ق
-    # # ("t'", "tʼ") # https://en.wikipedia.org/wiki/Soddo_language and matching grapheme for "voiceless alveolar ejective stop consonant" under CLTS
-    # ("t'", "tˤ"), # ط
-    # ("ɵ'", "ðˤ"), # TODO: Verify
-    # ("s'", "sˤ"), # ص
-    # ("c'", "t͡ʃˤ"), # چ
     ("ɤ", "ɣ"),
     ("ġ", "ɣ"), # غ
     # Remove stress marks
@@ -35,9 +24,14 @@ REPLACEMENTS = [
     ("έ", "ɛ"),
     ("á", "a"),
     ("é", "e"),
+    ("ó", "o"),
     ("ú", "u"),
+    ("í", "i"),
     ("ĩ", "i"),
     ("ź", "ɮ"),
+    ("ž", "ʒ"),
+    ("ž", "ʒ"),
+    ("ẓ", "ðˤ"),
     ("š", "ʃ"),
     ("x", "χ"),
     ("j", "ʒ"),
@@ -47,14 +41,6 @@ REPLACEMENTS = [
     # ("i'", "ɪ"), # in free variance with i, is a vowel between front and center, high open; its allophone is ǔ after w. (Leslau 1963).
     # ("ɛ'", "æ"), # betweem center and front, low close; is in free variant with a (central, low) in any position except initial and final; its allophone is å (central, low, rounded) after a labial (Leslau 1963).
     # ("a:'", "a:"), # instances correspond with a long vowel
-
-    ("ẹ", "e"),
-    ("ṟ", "ɾ"), # Maroccan Arabic TODO: verify which one of ɾ, ɾˤ, rˤ
-    ("", ""),
-    ("", "ḥ"),
-    ("ˡ", ":"), # Long consonant mark
-    # ("", ""),
-    # ("", ""),
 ]
 
 # Correct mismatches between the lexeme table and the table coding the cognate information.
@@ -115,6 +101,16 @@ class Dataset(BaseDataset):
             lookup_factory="Name"
         )
 
+        args.writer.add_concept(ID="flyverb", Name="Fly (v.)",
+                                Concepticon_ID="1441", Concepticon_Gloss="FLY (MOVE THROUGH AIR)")
+
+        concepts["fly (verb)"] = "flyverb"
+
+        args.writer.add_concept(ID="claw", Name="Claw",
+                                Concepticon_ID="72", Concepticon_Gloss="CLAW")
+
+        concepts["Claw"] = "claw"
+
         args.writer.add_languages()
 
         languages = {}  # We use the language map for an easier sources lookup.
@@ -162,12 +158,17 @@ class Dataset(BaseDataset):
                 if len(forms) > len(cogs):
                     cogs.extend("-" for _ in range(len(forms) - len(cogs)))
 
+                if lang in ["Hebrew", "Ugaritic", "Aramaic", "Akkadian"] and gloss == "Fly (n.)":
+                    concept = concepts["fly (verb)"]
+                else:
+                    concept = concepts[gloss]
+
                 for form, cog in zip(forms, cogs):
-                    cogid = "%s-%s" % (concepts[gloss], cog)
+                    cogid = "%s-%s" % (concept, cog)
 
                     lex = args.writer.add_form(
                         Language_ID=lid,
-                        Parameter_ID=concepts[gloss],
+                        Parameter_ID=concept,
                         Value=lexeme,
                         Source=src,
                         Form=form,
